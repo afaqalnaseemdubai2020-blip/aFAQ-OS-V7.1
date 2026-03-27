@@ -1,0 +1,338 @@
+[
+  {
+    "shopify_id": 1000,
+    "email": "customer0@example.com",
+    "first_name": "Customer",
+    "last_name": "1",
+    "phone": "+971507519175",
+    "orders_count": 8,
+    "total_spent": 1041.79,
+    "tags": [
+      "wholesale"
+    ],
+    "created_at": "2025-12-05T07:04:03.740884",
+    "updated_at": "2026-03-27T07:04:03.740904"
+  },
+  {
+    "shopify_id": 1001,
+    "email": "customer1@example.com",
+    "first_name": "Customer",
+    "last_name": "2",
+    "phone": "+971508124930",
+    "orders_count": 4,
+    "total_spent": 8230.11,
+    "tags": [],
+    "created_at": "2026-01-16T07:04:03.740921",
+    "updated_at": "2026-03-27T07:04:03.740928"
+  },
+  {
+    "shopify_id": 1002,
+    "email": "customer2@example.com",
+    "first_name": "Customer",
+    "last_name": "3",
+    "phone": "+971503632429",
+    "orders_count": 10,
+    "total_spent": 13035.35,
+    "tags": [
+      "retail"
+    ],
+    "created_at": "2025-07-06T07:04:03.740939",
+    "updated_at": "2026-03-27T07:04:03.740945"
+  },
+  {
+    "shopify_id": 1003,
+    "email": "customer3@example.com",
+    "first_name": "Customer",
+    "last_name": "4",
+    "phone": "+971505454866",
+    "orders_count": 12,
+    "total_spent": 5147.86,
+    "tags": [
+      "retail"
+    ],
+    "created_at": "2025-06-17T07:04:03.740954",
+    "updated_at": "2026-03-27T07:04:03.740959"
+  },
+  {
+    "shopify_id": 1004,
+    "email": "customer4@example.com",
+    "first_name": "Customer",
+    "last_name": "5",
+    "phone": "+971504783934",
+    "orders_count": 10,
+    "total_spent": 14767.28,
+    "tags": [],
+    "created_at": "2025-12-10T07:04:03.740969",
+    "updated_at": "2026-03-27T07:04:03.740975"
+  },
+  {
+    "shopify_id": 1005,
+    "email": "customer5@example.com",
+    "first_name": "Customer",
+    "last_name": "6",
+    "phone": "+971506597848",
+    "orders_count": 15,
+    "total_spent": 12984.48,
+    "tags": [
+      "vip"
+    ],
+    "created_at": "2025-03-27T07:04:03.740985",
+    "updated_at": "2026-03-27T07:04:03.740990"
+  },
+  {
+    "shopify_id": 1006,
+    "email": "customer6@example.com",
+    "first_name": "Customer",
+    "last_name": "7",
+    "phone": "+971503122108",
+    "orders_count": 5,
+    "total_spent": 5842.34,
+    "tags": [
+      "vip"
+    ],
+    "created_at": "2025-09-10T07:04:03.741000",
+    "updated_at": "2026-03-27T07:04:03.741006"
+  },
+  {
+    "shopify_id": 1007,
+    "email": "customer7@example.com",
+    "first_name": "Customer",
+    "last_name": "8",
+    "phone": "+971501294077",
+    "orders_count": 7,
+    "total_spent": 8572.41,
+    "tags": [
+      "retail"
+    ],
+    "created_at": "2025-08-02T07:04:03.741016",
+    "updated_at": "2026-03-27T07:04:03.741022"
+  },
+  {
+    "shopify_id": 1008,
+    "email": "customer8@example.com",
+    "first_name": "Customer",
+    "last_name": "9",
+    "phone": "+971504563719",
+    "orders_count": 1,
+    "total_spent": 6788.59,
+    "tags": [
+      "wholesale"
+    ],
+    "created_at": "2025-12-30T07:04:03.741030",
+    "updated_at": "2026-03-27T07:04:03.741036"
+  },
+  {
+    "shopify_id": 1009,
+    "email": "customer9@example.com",
+    "first_name": "Customer",
+    "last_name": "10",
+    "phone": "+971506198444",
+    "orders_count": 6,
+    "total_spent": 11319.38,
+    "tags": [
+      "vip"
+    ],
+    "created_at": "2025-04-11T07:04:03.741045",
+    "updated_at": "2026-03-27T07:04:03.741050"
+  },
+  {
+    "shopify_id": 1010,
+    "email": "customer10@example.com",
+    "first_name": "Customer",
+    "last_name": "11",
+    "phone": "+971505137199",
+    "orders_count": 10,
+    "total_spent": 1175.2,
+    "tags": [
+      "retail"
+    ],
+    "created_at": "2025-11-15T07:04:03.741066",
+    "updated_at": "2026-03-27T07:04:03.741072"
+  },
+  {
+    "shopify_id": 1011,
+    "email": "customer11@example.com",
+    "first_name": "Customer",
+    "last_name": "12",
+    "phone": "+971509599381",
+    "orders_count": 13,
+    "total_spent": 698.75,
+    "tags": [
+      "wholesale"
+    ],
+    "created_at": "2025-06-10T07:04:03.741082",
+    "updated_at": "2026-03-27T07:04:03.741088"
+  },
+  {
+    "shopify_id": 1012,
+    "email": "customer12@example.com",
+    "first_name": "Customer",
+    "last_name": "13",
+    "phone": "+971502198574",
+    "orders_count": 14,
+    "total_spent": 7066.74,
+    "tags": [],
+    "created_at": "2025-10-02T07:04:03.741097",
+    "updated_at": "2026-03-27T07:04:03.741103"
+  },
+  {
+    "shopify_id": 1013,
+    "email": "customer13@example.com",
+    "first_name": "Customer",
+    "last_name": "14",
+    "phone": "+971504266593",
+    "orders_count": 12,
+    "total_spent": 130.23,
+    "tags": [
+      "retail"
+    ],
+    "created_at": "2025-08-31T07:04:03.741112",
+    "updated_at": "2026-03-27T07:04:03.741117"
+  },
+  {
+    "shopify_id": 1014,
+    "email": "customer14@example.com",
+    "first_name": "Customer",
+    "last_name": "15",
+    "phone": "+971502097754",
+    "orders_count": 6,
+    "total_spent": 8199.87,
+    "tags": [
+      "retail"
+    ],
+    "created_at": "2026-01-02T07:04:03.741126",
+    "updated_at": "2026-03-27T07:04:03.741131"
+  },
+  {
+    "shopify_id": 1015,
+    "email": "customer15@example.com",
+    "first_name": "Customer",
+    "last_name": "16",
+    "phone": "+971507835572",
+    "orders_count": 10,
+    "total_spent": 14297.28,
+    "tags": [
+      "wholesale"
+    ],
+    "created_at": "2025-05-28T07:04:03.741140",
+    "updated_at": "2026-03-27T07:04:03.741145"
+  },
+  {
+    "shopify_id": 1016,
+    "email": "customer16@example.com",
+    "first_name": "Customer",
+    "last_name": "17",
+    "phone": "+971505032071",
+    "orders_count": 4,
+    "total_spent": 3862.69,
+    "tags": [],
+    "created_at": "2025-04-25T07:04:03.741153",
+    "updated_at": "2026-03-27T07:04:03.741158"
+  },
+  {
+    "shopify_id": 1017,
+    "email": "customer17@example.com",
+    "first_name": "Customer",
+    "last_name": "18",
+    "phone": "+971509482275",
+    "orders_count": 10,
+    "total_spent": 5307.84,
+    "tags": [
+      "retail"
+    ],
+    "created_at": "2025-04-17T07:04:03.741167",
+    "updated_at": "2026-03-27T07:04:03.741172"
+  },
+  {
+    "shopify_id": 1018,
+    "email": "customer18@example.com",
+    "first_name": "Customer",
+    "last_name": "19",
+    "phone": "+971506294091",
+    "orders_count": 1,
+    "total_spent": 11279.01,
+    "tags": [],
+    "created_at": "2025-05-17T07:04:03.741181",
+    "updated_at": "2026-03-27T07:04:03.741185"
+  },
+  {
+    "shopify_id": 1019,
+    "email": "customer19@example.com",
+    "first_name": "Customer",
+    "last_name": "20",
+    "phone": "+971505444607",
+    "orders_count": 5,
+    "total_spent": 3700.83,
+    "tags": [
+      "retail"
+    ],
+    "created_at": "2025-08-19T07:04:03.741194",
+    "updated_at": "2026-03-27T07:04:03.741199"
+  },
+  {
+    "shopify_id": 1020,
+    "email": "customer20@example.com",
+    "first_name": "Customer",
+    "last_name": "21",
+    "phone": "+971501739001",
+    "orders_count": 14,
+    "total_spent": 12924.17,
+    "tags": [],
+    "created_at": "2025-10-21T07:04:03.741213",
+    "updated_at": "2026-03-27T07:04:03.741219"
+  },
+  {
+    "shopify_id": 1021,
+    "email": "customer21@example.com",
+    "first_name": "Customer",
+    "last_name": "22",
+    "phone": "+971507843126",
+    "orders_count": 15,
+    "total_spent": 14995.39,
+    "tags": [],
+    "created_at": "2025-06-19T07:04:03.741228",
+    "updated_at": "2026-03-27T07:04:03.741232"
+  },
+  {
+    "shopify_id": 1022,
+    "email": "customer22@example.com",
+    "first_name": "Customer",
+    "last_name": "23",
+    "phone": "+971504928951",
+    "orders_count": 4,
+    "total_spent": 11282.42,
+    "tags": [
+      "wholesale"
+    ],
+    "created_at": "2025-10-11T07:04:03.741241",
+    "updated_at": "2026-03-27T07:04:03.741246"
+  },
+  {
+    "shopify_id": 1023,
+    "email": "customer23@example.com",
+    "first_name": "Customer",
+    "last_name": "24",
+    "phone": "+971504116785",
+    "orders_count": 9,
+    "total_spent": 11635.25,
+    "tags": [
+      "vip"
+    ],
+    "created_at": "2025-06-18T07:04:03.741254",
+    "updated_at": "2026-03-27T07:04:03.741258"
+  },
+  {
+    "shopify_id": 1024,
+    "email": "customer24@example.com",
+    "first_name": "Customer",
+    "last_name": "25",
+    "phone": "+971502892611",
+    "orders_count": 0,
+    "total_spent": 6258.76,
+    "tags": [
+      "retail"
+    ],
+    "created_at": "2025-06-12T07:04:03.741266",
+    "updated_at": "2026-03-27T07:04:03.741271"
+  }
+]

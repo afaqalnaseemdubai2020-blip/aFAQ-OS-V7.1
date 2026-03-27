@@ -1,0 +1,3963 @@
+[
+  {
+    "shopify_id": 5000,
+    "order_number": "#1001",
+    "email": "customer15@example.com",
+    "customer_id": 1015,
+    "financial_status": "pending",
+    "fulfillment_status": "fulfilled",
+    "total_price": 190.48,
+    "subtotal_price": 216,
+    "total_tax": 10.8,
+    "total_discounts": 25.52,
+    "total_shipping": 15,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2007,
+        "title": "Kérastase Bain Satin",
+        "quantity": 1,
+        "price": 216,
+        "discount": 0,
+        "total": 216,
+        "sku": "SKU-008"
+      }
+    ],
+    "channel": "shop_app",
+    "created_at": "2025-12-29T07:04:03.741725",
+    "updated_at": "2026-03-27T07:04:03.741732"
+  },
+  {
+    "shopify_id": 5001,
+    "order_number": "#1002",
+    "email": "customer12@example.com",
+    "customer_id": 1012,
+    "financial_status": "refunded",
+    "fulfillment_status": "fulfilled",
+    "total_price": 2442.73,
+    "subtotal_price": 2480,
+    "total_tax": 124.0,
+    "total_discounts": 37.27,
+    "total_shipping": 25,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2013,
+        "title": "Conair InfinitiPro",
+        "quantity": 4,
+        "price": 620,
+        "discount": 0,
+        "total": 2480,
+        "sku": "SKU-014"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2026-02-22T07:04:03.741758",
+    "updated_at": "2026-03-27T07:04:03.741766"
+  },
+  {
+    "shopify_id": 5002,
+    "order_number": "#1003",
+    "email": "customer13@example.com",
+    "customer_id": 1013,
+    "financial_status": "pending",
+    "fulfillment_status": null,
+    "total_price": 2177.72,
+    "subtotal_price": 2234,
+    "total_tax": 111.7,
+    "total_discounts": 56.28,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2005,
+        "title": "GHD Platinum+",
+        "quantity": 2,
+        "price": 269,
+        "discount": 0,
+        "total": 538,
+        "sku": "SKU-006"
+      },
+      {
+        "product_id": 2005,
+        "title": "GHD Platinum+",
+        "quantity": 1,
+        "price": 269,
+        "discount": 0,
+        "total": 269,
+        "sku": "SKU-006"
+      },
+      {
+        "product_id": 2013,
+        "title": "Conair InfinitiPro",
+        "quantity": 1,
+        "price": 620,
+        "discount": 0,
+        "total": 620,
+        "sku": "SKU-014"
+      },
+      {
+        "product_id": 2005,
+        "title": "GHD Platinum+",
+        "quantity": 3,
+        "price": 269,
+        "discount": 0,
+        "total": 807,
+        "sku": "SKU-006"
+      }
+    ],
+    "channel": "facebook",
+    "created_at": "2026-02-16T07:04:03.741794",
+    "updated_at": "2026-03-27T07:04:03.741799"
+  },
+  {
+    "shopify_id": 5003,
+    "order_number": "#1004",
+    "email": "customer10@example.com",
+    "customer_id": 1010,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 634.47,
+    "subtotal_price": 648,
+    "total_tax": 32.4,
+    "total_discounts": 13.53,
+    "total_shipping": 15,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2007,
+        "title": "Kérastase Bain Satin",
+        "quantity": 3,
+        "price": 216,
+        "discount": 0,
+        "total": 648,
+        "sku": "SKU-008"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2025-12-16T07:04:03.741816",
+    "updated_at": "2026-03-27T07:04:03.741821"
+  },
+  {
+    "shopify_id": 5004,
+    "order_number": "#1005",
+    "email": "customer9@example.com",
+    "customer_id": 1009,
+    "financial_status": "refunded",
+    "fulfillment_status": "fulfilled",
+    "total_price": 1971.36,
+    "subtotal_price": 2064,
+    "total_tax": 103.2,
+    "total_discounts": 92.64,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2010,
+        "title": "Paul Mitchell Tea Tree",
+        "quantity": 2,
+        "price": 102,
+        "discount": 0,
+        "total": 204,
+        "sku": "SKU-011"
+      },
+      {
+        "product_id": 2013,
+        "title": "Conair InfinitiPro",
+        "quantity": 3,
+        "price": 620,
+        "discount": 0,
+        "total": 1860,
+        "sku": "SKU-014"
+      }
+    ],
+    "channel": "pos",
+    "created_at": "2026-01-09T07:04:03.741838",
+    "updated_at": "2026-03-27T07:04:03.741843"
+  },
+  {
+    "shopify_id": 5005,
+    "order_number": "#1006",
+    "email": "customer3@example.com",
+    "customer_id": 1003,
+    "financial_status": "pending",
+    "fulfillment_status": null,
+    "total_price": 450.62,
+    "subtotal_price": 510,
+    "total_tax": 25.5,
+    "total_discounts": 59.38,
+    "total_shipping": 25,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2010,
+        "title": "Paul Mitchell Tea Tree",
+        "quantity": 5,
+        "price": 102,
+        "discount": 0,
+        "total": 510,
+        "sku": "SKU-011"
+      }
+    ],
+    "channel": "facebook",
+    "created_at": "2026-01-06T07:04:03.741858",
+    "updated_at": "2026-03-27T07:04:03.741865"
+  },
+  {
+    "shopify_id": 5006,
+    "order_number": "#1007",
+    "email": "customer17@example.com",
+    "customer_id": 1017,
+    "financial_status": "refunded",
+    "fulfillment_status": "partial",
+    "total_price": 4413.04,
+    "subtotal_price": 4507,
+    "total_tax": 225.35,
+    "total_discounts": 93.96,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2009,
+        "title": "Redken Extreme",
+        "quantity": 2,
+        "price": 300,
+        "discount": 0,
+        "total": 600,
+        "sku": "SKU-010"
+      },
+      {
+        "product_id": 2011,
+        "title": "CHI Original",
+        "quantity": 5,
+        "price": 620,
+        "discount": 0,
+        "total": 3100,
+        "sku": "SKU-012"
+      },
+      {
+        "product_id": 2005,
+        "title": "GHD Platinum+",
+        "quantity": 3,
+        "price": 269,
+        "discount": 0,
+        "total": 807,
+        "sku": "SKU-006"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2026-01-28T07:04:03.741891",
+    "updated_at": "2026-03-27T07:04:03.741896"
+  },
+  {
+    "shopify_id": 5007,
+    "order_number": "#1008",
+    "email": "customer12@example.com",
+    "customer_id": 1012,
+    "financial_status": "pending",
+    "fulfillment_status": "fulfilled",
+    "total_price": 6468.36,
+    "subtotal_price": 6585,
+    "total_tax": 329.25,
+    "total_discounts": 116.64,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2001,
+        "title": "Wahl Senior Cordless",
+        "quantity": 5,
+        "price": 654,
+        "discount": 0,
+        "total": 3270,
+        "sku": "SKU-002"
+      },
+      {
+        "product_id": 2006,
+        "title": "T3 Micro Wand",
+        "quantity": 5,
+        "price": 663,
+        "discount": 0,
+        "total": 3315,
+        "sku": "SKU-007"
+      }
+    ],
+    "channel": "facebook",
+    "created_at": "2025-12-01T07:04:03.741914",
+    "updated_at": "2026-03-27T07:04:03.741918"
+  },
+  {
+    "shopify_id": 5008,
+    "order_number": "#1009",
+    "email": "customer20@example.com",
+    "customer_id": 1020,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 3384.77,
+    "subtotal_price": 3746,
+    "total_tax": 187.3,
+    "total_discounts": 361.23,
+    "total_shipping": 25,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2010,
+        "title": "Paul Mitchell Tea Tree",
+        "quantity": 5,
+        "price": 102,
+        "discount": 0,
+        "total": 510,
+        "sku": "SKU-011"
+      },
+      {
+        "product_id": 2009,
+        "title": "Redken Extreme",
+        "quantity": 2,
+        "price": 300,
+        "discount": 0,
+        "total": 600,
+        "sku": "SKU-010"
+      },
+      {
+        "product_id": 2008,
+        "title": "Schwarzkopf IGORA",
+        "quantity": 4,
+        "price": 659,
+        "discount": 0,
+        "total": 2636,
+        "sku": "SKU-009"
+      }
+    ],
+    "channel": "shop_app",
+    "created_at": "2026-02-09T07:04:03.741936",
+    "updated_at": "2026-03-27T07:04:03.741941"
+  },
+  {
+    "shopify_id": 5009,
+    "order_number": "#1010",
+    "email": "customer19@example.com",
+    "customer_id": 1019,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 3112.34,
+    "subtotal_price": 3406,
+    "total_tax": 170.3,
+    "total_discounts": 293.66,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2013,
+        "title": "Conair InfinitiPro",
+        "quantity": 5,
+        "price": 620,
+        "discount": 0,
+        "total": 3100,
+        "sku": "SKU-014"
+      },
+      {
+        "product_id": 2010,
+        "title": "Paul Mitchell Tea Tree",
+        "quantity": 3,
+        "price": 102,
+        "discount": 0,
+        "total": 306,
+        "sku": "SKU-011"
+      }
+    ],
+    "channel": "pos",
+    "created_at": "2025-09-30T07:04:03.741960",
+    "updated_at": "2026-03-27T07:04:03.741965"
+  },
+  {
+    "shopify_id": 5010,
+    "order_number": "#1011",
+    "email": "customer19@example.com",
+    "customer_id": 1019,
+    "financial_status": "paid",
+    "fulfillment_status": null,
+    "total_price": 3376.08,
+    "subtotal_price": 3789,
+    "total_tax": 189.45,
+    "total_discounts": 412.92,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2012,
+        "title": "Revlon One-Step",
+        "quantity": 4,
+        "price": 280,
+        "discount": 0,
+        "total": 1120,
+        "sku": "SKU-013"
+      },
+      {
+        "product_id": 2009,
+        "title": "Redken Extreme",
+        "quantity": 3,
+        "price": 300,
+        "discount": 0,
+        "total": 900,
+        "sku": "SKU-010"
+      },
+      {
+        "product_id": 2005,
+        "title": "GHD Platinum+",
+        "quantity": 1,
+        "price": 269,
+        "discount": 0,
+        "total": 269,
+        "sku": "SKU-006"
+      },
+      {
+        "product_id": 2009,
+        "title": "Redken Extreme",
+        "quantity": 5,
+        "price": 300,
+        "discount": 0,
+        "total": 1500,
+        "sku": "SKU-010"
+      }
+    ],
+    "channel": "shop_app",
+    "created_at": "2025-11-11T07:04:03.741985",
+    "updated_at": "2026-03-27T07:04:03.741990"
+  },
+  {
+    "shopify_id": 5011,
+    "order_number": "#1012",
+    "email": "customer0@example.com",
+    "customer_id": 1000,
+    "financial_status": "pending",
+    "fulfillment_status": "fulfilled",
+    "total_price": 3848.63,
+    "subtotal_price": 4377,
+    "total_tax": 218.85,
+    "total_discounts": 528.37,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2006,
+        "title": "T3 Micro Wand",
+        "quantity": 4,
+        "price": 663,
+        "discount": 0,
+        "total": 2652,
+        "sku": "SKU-007"
+      },
+      {
+        "product_id": 2007,
+        "title": "Kérastase Bain Satin",
+        "quantity": 2,
+        "price": 216,
+        "discount": 0,
+        "total": 432,
+        "sku": "SKU-008"
+      },
+      {
+        "product_id": 2003,
+        "title": "Olaplex No.3",
+        "quantity": 3,
+        "price": 431,
+        "discount": 0,
+        "total": 1293,
+        "sku": "SKU-004"
+      }
+    ],
+    "channel": "facebook",
+    "created_at": "2026-03-27T07:04:03.742009",
+    "updated_at": "2026-03-27T07:04:03.742014"
+  },
+  {
+    "shopify_id": 5012,
+    "order_number": "#1013",
+    "email": "customer18@example.com",
+    "customer_id": 1018,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 1861.0,
+    "subtotal_price": 1923,
+    "total_tax": 96.15,
+    "total_discounts": 62.0,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2010,
+        "title": "Paul Mitchell Tea Tree",
+        "quantity": 2,
+        "price": 102,
+        "discount": 0,
+        "total": 204,
+        "sku": "SKU-011"
+      },
+      {
+        "product_id": 2000,
+        "title": "Babyliss Pro Nano Titanium",
+        "quantity": 3,
+        "price": 573,
+        "discount": 0,
+        "total": 1719,
+        "sku": "SKU-001"
+      }
+    ],
+    "channel": "pos",
+    "created_at": "2025-12-20T07:04:03.742031",
+    "updated_at": "2026-03-27T07:04:03.742035"
+  },
+  {
+    "shopify_id": 5013,
+    "order_number": "#1014",
+    "email": "customer7@example.com",
+    "customer_id": 1007,
+    "financial_status": "paid",
+    "fulfillment_status": null,
+    "total_price": 4307.02,
+    "subtotal_price": 4854,
+    "total_tax": 242.7,
+    "total_discounts": 546.98,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2006,
+        "title": "T3 Micro Wand",
+        "quantity": 2,
+        "price": 663,
+        "discount": 0,
+        "total": 1326,
+        "sku": "SKU-007"
+      },
+      {
+        "product_id": 2000,
+        "title": "Babyliss Pro Nano Titanium",
+        "quantity": 5,
+        "price": 573,
+        "discount": 0,
+        "total": 2865,
+        "sku": "SKU-001"
+      },
+      {
+        "product_id": 2006,
+        "title": "T3 Micro Wand",
+        "quantity": 1,
+        "price": 663,
+        "discount": 0,
+        "total": 663,
+        "sku": "SKU-007"
+      }
+    ],
+    "channel": "shop_app",
+    "created_at": "2025-10-13T07:04:03.742057",
+    "updated_at": "2026-03-27T07:04:03.742062"
+  },
+  {
+    "shopify_id": 5014,
+    "order_number": "#1015",
+    "email": "customer12@example.com",
+    "customer_id": 1012,
+    "financial_status": "paid",
+    "fulfillment_status": null,
+    "total_price": 1024.03,
+    "subtotal_price": 1086,
+    "total_tax": 54.3,
+    "total_discounts": 61.97,
+    "total_shipping": 15,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2002,
+        "title": "Dyson Supersonic",
+        "quantity": 3,
+        "price": 362,
+        "discount": 0,
+        "total": 1086,
+        "sku": "SKU-003"
+      }
+    ],
+    "channel": "pos",
+    "created_at": "2026-03-21T07:04:03.742077",
+    "updated_at": "2026-03-27T07:04:03.742081"
+  },
+  {
+    "shopify_id": 5015,
+    "order_number": "#1016",
+    "email": "customer11@example.com",
+    "customer_id": 1011,
+    "financial_status": "pending",
+    "fulfillment_status": "partial",
+    "total_price": 740.16,
+    "subtotal_price": 864,
+    "total_tax": 43.2,
+    "total_discounts": 123.84,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2007,
+        "title": "Kérastase Bain Satin",
+        "quantity": 4,
+        "price": 216,
+        "discount": 0,
+        "total": 864,
+        "sku": "SKU-008"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2025-12-03T07:04:03.742095",
+    "updated_at": "2026-03-27T07:04:03.742100"
+  },
+  {
+    "shopify_id": 5016,
+    "order_number": "#1017",
+    "email": "customer3@example.com",
+    "customer_id": 1003,
+    "financial_status": "pending",
+    "fulfillment_status": "fulfilled",
+    "total_price": 2603.73,
+    "subtotal_price": 2896,
+    "total_tax": 144.8,
+    "total_discounts": 292.27,
+    "total_shipping": 25,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2001,
+        "title": "Wahl Senior Cordless",
+        "quantity": 4,
+        "price": 654,
+        "discount": 0,
+        "total": 2616,
+        "sku": "SKU-002"
+      },
+      {
+        "product_id": 2012,
+        "title": "Revlon One-Step",
+        "quantity": 1,
+        "price": 280,
+        "discount": 0,
+        "total": 280,
+        "sku": "SKU-013"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2026-02-17T07:04:03.742116",
+    "updated_at": "2026-03-27T07:04:03.742121"
+  },
+  {
+    "shopify_id": 5017,
+    "order_number": "#1018",
+    "email": "customer9@example.com",
+    "customer_id": 1009,
+    "financial_status": "paid",
+    "fulfillment_status": null,
+    "total_price": 1128.19,
+    "subtotal_price": 1240,
+    "total_tax": 62.0,
+    "total_discounts": 111.81,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2013,
+        "title": "Conair InfinitiPro",
+        "quantity": 2,
+        "price": 620,
+        "discount": 0,
+        "total": 1240,
+        "sku": "SKU-014"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2025-10-11T07:04:03.742135",
+    "updated_at": "2026-03-27T07:04:03.742139"
+  },
+  {
+    "shopify_id": 5018,
+    "order_number": "#1019",
+    "email": "customer0@example.com",
+    "customer_id": 1000,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 750.2,
+    "subtotal_price": 862,
+    "total_tax": 43.1,
+    "total_discounts": 111.8,
+    "total_shipping": 15,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2003,
+        "title": "Olaplex No.3",
+        "quantity": 2,
+        "price": 431,
+        "discount": 0,
+        "total": 862,
+        "sku": "SKU-004"
+      }
+    ],
+    "channel": "shop_app",
+    "created_at": "2025-12-09T07:04:03.742157",
+    "updated_at": "2026-03-27T07:04:03.742161"
+  },
+  {
+    "shopify_id": 5019,
+    "order_number": "#1020",
+    "email": "customer16@example.com",
+    "customer_id": 1016,
+    "financial_status": "pending",
+    "fulfillment_status": "fulfilled",
+    "total_price": 1696.33,
+    "subtotal_price": 1962,
+    "total_tax": 98.1,
+    "total_discounts": 265.67,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2001,
+        "title": "Wahl Senior Cordless",
+        "quantity": 3,
+        "price": 654,
+        "discount": 0,
+        "total": 1962,
+        "sku": "SKU-002"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2026-01-22T07:04:03.742181",
+    "updated_at": "2026-03-27T07:04:03.742186"
+  },
+  {
+    "shopify_id": 5020,
+    "order_number": "#1021",
+    "email": "customer7@example.com",
+    "customer_id": 1007,
+    "financial_status": "refunded",
+    "fulfillment_status": "partial",
+    "total_price": 2886.68,
+    "subtotal_price": 3295,
+    "total_tax": 164.75,
+    "total_discounts": 408.32,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2008,
+        "title": "Schwarzkopf IGORA",
+        "quantity": 5,
+        "price": 659,
+        "discount": 0,
+        "total": 3295,
+        "sku": "SKU-009"
+      }
+    ],
+    "channel": "pos",
+    "created_at": "2025-11-16T07:04:03.742200",
+    "updated_at": "2026-03-27T07:04:03.742204"
+  },
+  {
+    "shopify_id": 5021,
+    "order_number": "#1022",
+    "email": "customer15@example.com",
+    "customer_id": 1015,
+    "financial_status": "paid",
+    "fulfillment_status": "partial",
+    "total_price": 100.61,
+    "subtotal_price": 102,
+    "total_tax": 5.1,
+    "total_discounts": 1.39,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2004,
+        "title": "Moroccanoil Treatment",
+        "quantity": 2,
+        "price": 51,
+        "discount": 0,
+        "total": 102,
+        "sku": "SKU-005"
+      }
+    ],
+    "channel": "facebook",
+    "created_at": "2025-12-25T07:04:03.742218",
+    "updated_at": "2026-03-27T07:04:03.742223"
+  },
+  {
+    "shopify_id": 5022,
+    "order_number": "#1023",
+    "email": "customer12@example.com",
+    "customer_id": 1012,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 1339.74,
+    "subtotal_price": 1400,
+    "total_tax": 70.0,
+    "total_discounts": 60.26,
+    "total_shipping": 15,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2012,
+        "title": "Revlon One-Step",
+        "quantity": 5,
+        "price": 280,
+        "discount": 0,
+        "total": 1400,
+        "sku": "SKU-013"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2025-11-16T07:04:03.742237",
+    "updated_at": "2026-03-27T07:04:03.742242"
+  },
+  {
+    "shopify_id": 5023,
+    "order_number": "#1024",
+    "email": "customer2@example.com",
+    "customer_id": 1002,
+    "financial_status": "refunded",
+    "fulfillment_status": "partial",
+    "total_price": 2394.5,
+    "subtotal_price": 2786,
+    "total_tax": 139.3,
+    "total_discounts": 391.5,
+    "total_shipping": 25,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2010,
+        "title": "Paul Mitchell Tea Tree",
+        "quantity": 3,
+        "price": 102,
+        "discount": 0,
+        "total": 306,
+        "sku": "SKU-011"
+      },
+      {
+        "product_id": 2011,
+        "title": "CHI Original",
+        "quantity": 4,
+        "price": 620,
+        "discount": 0,
+        "total": 2480,
+        "sku": "SKU-012"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2026-03-12T07:04:03.742262",
+    "updated_at": "2026-03-27T07:04:03.742267"
+  },
+  {
+    "shopify_id": 5024,
+    "order_number": "#1025",
+    "email": "customer19@example.com",
+    "customer_id": 1019,
+    "financial_status": "pending",
+    "fulfillment_status": "fulfilled",
+    "total_price": 2861.03,
+    "subtotal_price": 3103,
+    "total_tax": 155.15,
+    "total_discounts": 241.97,
+    "total_shipping": 15,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2002,
+        "title": "Dyson Supersonic",
+        "quantity": 5,
+        "price": 362,
+        "discount": 0,
+        "total": 1810,
+        "sku": "SKU-003"
+      },
+      {
+        "product_id": 2003,
+        "title": "Olaplex No.3",
+        "quantity": 3,
+        "price": 431,
+        "discount": 0,
+        "total": 1293,
+        "sku": "SKU-004"
+      }
+    ],
+    "channel": "pos",
+    "created_at": "2025-12-04T07:04:03.742283",
+    "updated_at": "2026-03-27T07:04:03.742288"
+  },
+  {
+    "shopify_id": 5025,
+    "order_number": "#1026",
+    "email": "customer21@example.com",
+    "customer_id": 1021,
+    "financial_status": "paid",
+    "fulfillment_status": null,
+    "total_price": 2737.78,
+    "subtotal_price": 2967,
+    "total_tax": 148.35,
+    "total_discounts": 229.22,
+    "total_shipping": 25,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2000,
+        "title": "Babyliss Pro Nano Titanium",
+        "quantity": 5,
+        "price": 573,
+        "discount": 0,
+        "total": 2865,
+        "sku": "SKU-001"
+      },
+      {
+        "product_id": 2010,
+        "title": "Paul Mitchell Tea Tree",
+        "quantity": 1,
+        "price": 102,
+        "discount": 0,
+        "total": 102,
+        "sku": "SKU-011"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2025-11-18T07:04:03.742304",
+    "updated_at": "2026-03-27T07:04:03.742309"
+  },
+  {
+    "shopify_id": 5026,
+    "order_number": "#1027",
+    "email": "customer12@example.com",
+    "customer_id": 1012,
+    "financial_status": "paid",
+    "fulfillment_status": null,
+    "total_price": 1118.07,
+    "subtotal_price": 1160,
+    "total_tax": 58.0,
+    "total_discounts": 41.93,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2012,
+        "title": "Revlon One-Step",
+        "quantity": 2,
+        "price": 280,
+        "discount": 0,
+        "total": 560,
+        "sku": "SKU-013"
+      },
+      {
+        "product_id": 2009,
+        "title": "Redken Extreme",
+        "quantity": 2,
+        "price": 300,
+        "discount": 0,
+        "total": 600,
+        "sku": "SKU-010"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2026-03-17T07:04:03.742358",
+    "updated_at": "2026-03-27T07:04:03.742365"
+  },
+  {
+    "shopify_id": 5027,
+    "order_number": "#1028",
+    "email": "customer2@example.com",
+    "customer_id": 1002,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 401.76,
+    "subtotal_price": 408,
+    "total_tax": 20.4,
+    "total_discounts": 6.24,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2010,
+        "title": "Paul Mitchell Tea Tree",
+        "quantity": 4,
+        "price": 102,
+        "discount": 0,
+        "total": 408,
+        "sku": "SKU-011"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2025-10-01T07:04:03.742380",
+    "updated_at": "2026-03-27T07:04:03.742385"
+  },
+  {
+    "shopify_id": 5028,
+    "order_number": "#1029",
+    "email": "customer3@example.com",
+    "customer_id": 1003,
+    "financial_status": "refunded",
+    "fulfillment_status": "fulfilled",
+    "total_price": 3816.85,
+    "subtotal_price": 4158,
+    "total_tax": 207.9,
+    "total_discounts": 341.15,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2002,
+        "title": "Dyson Supersonic",
+        "quantity": 5,
+        "price": 362,
+        "discount": 0,
+        "total": 1810,
+        "sku": "SKU-003"
+      },
+      {
+        "product_id": 2005,
+        "title": "GHD Platinum+",
+        "quantity": 2,
+        "price": 269,
+        "discount": 0,
+        "total": 538,
+        "sku": "SKU-006"
+      },
+      {
+        "product_id": 2002,
+        "title": "Dyson Supersonic",
+        "quantity": 5,
+        "price": 362,
+        "discount": 0,
+        "total": 1810,
+        "sku": "SKU-003"
+      }
+    ],
+    "channel": "shop_app",
+    "created_at": "2025-12-29T07:04:03.742404",
+    "updated_at": "2026-03-27T07:04:03.742408"
+  },
+  {
+    "shopify_id": 5029,
+    "order_number": "#1030",
+    "email": "customer15@example.com",
+    "customer_id": 1015,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 1420.15,
+    "subtotal_price": 1448,
+    "total_tax": 72.4,
+    "total_discounts": 27.85,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2002,
+        "title": "Dyson Supersonic",
+        "quantity": 4,
+        "price": 362,
+        "discount": 0,
+        "total": 1448,
+        "sku": "SKU-003"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2025-12-09T07:04:03.742426",
+    "updated_at": "2026-03-27T07:04:03.742430"
+  },
+  {
+    "shopify_id": 5030,
+    "order_number": "#1031",
+    "email": "customer5@example.com",
+    "customer_id": 1005,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 2246.84,
+    "subtotal_price": 2319,
+    "total_tax": 115.95,
+    "total_discounts": 72.16,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2010,
+        "title": "Paul Mitchell Tea Tree",
+        "quantity": 4,
+        "price": 102,
+        "discount": 0,
+        "total": 408,
+        "sku": "SKU-011"
+      },
+      {
+        "product_id": 2011,
+        "title": "CHI Original",
+        "quantity": 3,
+        "price": 620,
+        "discount": 0,
+        "total": 1860,
+        "sku": "SKU-012"
+      },
+      {
+        "product_id": 2004,
+        "title": "Moroccanoil Treatment",
+        "quantity": 1,
+        "price": 51,
+        "discount": 0,
+        "total": 51,
+        "sku": "SKU-005"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2025-11-19T07:04:03.742449",
+    "updated_at": "2026-03-27T07:04:03.742453"
+  },
+  {
+    "shopify_id": 5031,
+    "order_number": "#1032",
+    "email": "customer24@example.com",
+    "customer_id": 1024,
+    "financial_status": "refunded",
+    "fulfillment_status": "fulfilled",
+    "total_price": 2121.06,
+    "subtotal_price": 2316,
+    "total_tax": 115.8,
+    "total_discounts": 194.94,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2013,
+        "title": "Conair InfinitiPro",
+        "quantity": 2,
+        "price": 620,
+        "discount": 0,
+        "total": 1240,
+        "sku": "SKU-014"
+      },
+      {
+        "product_id": 2005,
+        "title": "GHD Platinum+",
+        "quantity": 4,
+        "price": 269,
+        "discount": 0,
+        "total": 1076,
+        "sku": "SKU-006"
+      }
+    ],
+    "channel": "facebook",
+    "created_at": "2025-12-04T07:04:03.742473",
+    "updated_at": "2026-03-27T07:04:03.742477"
+  },
+  {
+    "shopify_id": 5032,
+    "order_number": "#1033",
+    "email": "customer0@example.com",
+    "customer_id": 1000,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 3941.59,
+    "subtotal_price": 4178,
+    "total_tax": 208.9,
+    "total_discounts": 236.41,
+    "total_shipping": 25,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2006,
+        "title": "T3 Micro Wand",
+        "quantity": 5,
+        "price": 663,
+        "discount": 0,
+        "total": 3315,
+        "sku": "SKU-007"
+      },
+      {
+        "product_id": 2003,
+        "title": "Olaplex No.3",
+        "quantity": 1,
+        "price": 431,
+        "discount": 0,
+        "total": 431,
+        "sku": "SKU-004"
+      },
+      {
+        "product_id": 2007,
+        "title": "Kérastase Bain Satin",
+        "quantity": 2,
+        "price": 216,
+        "discount": 0,
+        "total": 432,
+        "sku": "SKU-008"
+      }
+    ],
+    "channel": "shop_app",
+    "created_at": "2026-02-11T07:04:03.742496",
+    "updated_at": "2026-03-27T07:04:03.742500"
+  },
+  {
+    "shopify_id": 5033,
+    "order_number": "#1034",
+    "email": "customer7@example.com",
+    "customer_id": 1007,
+    "financial_status": "paid",
+    "fulfillment_status": "partial",
+    "total_price": 784.09,
+    "subtotal_price": 840,
+    "total_tax": 42.0,
+    "total_discounts": 55.91,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2012,
+        "title": "Revlon One-Step",
+        "quantity": 3,
+        "price": 280,
+        "discount": 0,
+        "total": 840,
+        "sku": "SKU-013"
+      }
+    ],
+    "channel": "shop_app",
+    "created_at": "2026-03-20T07:04:03.742515",
+    "updated_at": "2026-03-27T07:04:03.742520"
+  },
+  {
+    "shopify_id": 5034,
+    "order_number": "#1035",
+    "email": "customer23@example.com",
+    "customer_id": 1023,
+    "financial_status": "paid",
+    "fulfillment_status": "partial",
+    "total_price": 580.72,
+    "subtotal_price": 620,
+    "total_tax": 31.0,
+    "total_discounts": 39.28,
+    "total_shipping": 15,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2011,
+        "title": "CHI Original",
+        "quantity": 1,
+        "price": 620,
+        "discount": 0,
+        "total": 620,
+        "sku": "SKU-012"
+      }
+    ],
+    "channel": "pos",
+    "created_at": "2026-02-16T07:04:03.742535",
+    "updated_at": "2026-03-27T07:04:03.742540"
+  },
+  {
+    "shopify_id": 5035,
+    "order_number": "#1036",
+    "email": "customer7@example.com",
+    "customer_id": 1007,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 6119.46,
+    "subtotal_price": 6565,
+    "total_tax": 328.25,
+    "total_discounts": 445.54,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2001,
+        "title": "Wahl Senior Cordless",
+        "quantity": 5,
+        "price": 654,
+        "discount": 0,
+        "total": 3270,
+        "sku": "SKU-002"
+      },
+      {
+        "product_id": 2008,
+        "title": "Schwarzkopf IGORA",
+        "quantity": 5,
+        "price": 659,
+        "discount": 0,
+        "total": 3295,
+        "sku": "SKU-009"
+      }
+    ],
+    "channel": "pos",
+    "created_at": "2025-11-02T07:04:03.742556",
+    "updated_at": "2026-03-27T07:04:03.742561"
+  },
+  {
+    "shopify_id": 5036,
+    "order_number": "#1037",
+    "email": "customer20@example.com",
+    "customer_id": 1020,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 5157.01,
+    "subtotal_price": 5232,
+    "total_tax": 261.6,
+    "total_discounts": 74.99,
+    "total_shipping": 25,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2008,
+        "title": "Schwarzkopf IGORA",
+        "quantity": 5,
+        "price": 659,
+        "discount": 0,
+        "total": 3295,
+        "sku": "SKU-009"
+      },
+      {
+        "product_id": 2012,
+        "title": "Revlon One-Step",
+        "quantity": 2,
+        "price": 280,
+        "discount": 0,
+        "total": 560,
+        "sku": "SKU-013"
+      },
+      {
+        "product_id": 2004,
+        "title": "Moroccanoil Treatment",
+        "quantity": 1,
+        "price": 51,
+        "discount": 0,
+        "total": 51,
+        "sku": "SKU-005"
+      },
+      {
+        "product_id": 2006,
+        "title": "T3 Micro Wand",
+        "quantity": 2,
+        "price": 663,
+        "discount": 0,
+        "total": 1326,
+        "sku": "SKU-007"
+      }
+    ],
+    "channel": "pos",
+    "created_at": "2025-10-09T07:04:03.742587",
+    "updated_at": "2026-03-27T07:04:03.742591"
+  },
+  {
+    "shopify_id": 5037,
+    "order_number": "#1038",
+    "email": "customer18@example.com",
+    "customer_id": 1018,
+    "financial_status": "refunded",
+    "fulfillment_status": null,
+    "total_price": 1859.66,
+    "subtotal_price": 1977,
+    "total_tax": 98.85,
+    "total_discounts": 117.34,
+    "total_shipping": 25,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2008,
+        "title": "Schwarzkopf IGORA",
+        "quantity": 3,
+        "price": 659,
+        "discount": 0,
+        "total": 1977,
+        "sku": "SKU-009"
+      }
+    ],
+    "channel": "pos",
+    "created_at": "2026-02-05T07:04:03.742605",
+    "updated_at": "2026-03-27T07:04:03.742609"
+  },
+  {
+    "shopify_id": 5038,
+    "order_number": "#1039",
+    "email": "customer17@example.com",
+    "customer_id": 1017,
+    "financial_status": "paid",
+    "fulfillment_status": "partial",
+    "total_price": 870.93,
+    "subtotal_price": 879,
+    "total_tax": 43.95,
+    "total_discounts": 8.07,
+    "total_shipping": 25,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2010,
+        "title": "Paul Mitchell Tea Tree",
+        "quantity": 3,
+        "price": 102,
+        "discount": 0,
+        "total": 306,
+        "sku": "SKU-011"
+      },
+      {
+        "product_id": 2000,
+        "title": "Babyliss Pro Nano Titanium",
+        "quantity": 1,
+        "price": 573,
+        "discount": 0,
+        "total": 573,
+        "sku": "SKU-001"
+      }
+    ],
+    "channel": "pos",
+    "created_at": "2025-11-19T07:04:03.742625",
+    "updated_at": "2026-03-27T07:04:03.742629"
+  },
+  {
+    "shopify_id": 5039,
+    "order_number": "#1040",
+    "email": "customer22@example.com",
+    "customer_id": 1022,
+    "financial_status": "paid",
+    "fulfillment_status": "partial",
+    "total_price": 2816.45,
+    "subtotal_price": 3299,
+    "total_tax": 164.95,
+    "total_discounts": 482.55,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2013,
+        "title": "Conair InfinitiPro",
+        "quantity": 2,
+        "price": 620,
+        "discount": 0,
+        "total": 1240,
+        "sku": "SKU-014"
+      },
+      {
+        "product_id": 2004,
+        "title": "Moroccanoil Treatment",
+        "quantity": 1,
+        "price": 51,
+        "discount": 0,
+        "total": 51,
+        "sku": "SKU-005"
+      },
+      {
+        "product_id": 2000,
+        "title": "Babyliss Pro Nano Titanium",
+        "quantity": 2,
+        "price": 573,
+        "discount": 0,
+        "total": 1146,
+        "sku": "SKU-001"
+      },
+      {
+        "product_id": 2003,
+        "title": "Olaplex No.3",
+        "quantity": 2,
+        "price": 431,
+        "discount": 0,
+        "total": 862,
+        "sku": "SKU-004"
+      }
+    ],
+    "channel": "pos",
+    "created_at": "2025-12-25T07:04:03.742655",
+    "updated_at": "2026-03-27T07:04:03.742660"
+  },
+  {
+    "shopify_id": 5040,
+    "order_number": "#1041",
+    "email": "customer1@example.com",
+    "customer_id": 1001,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 3193.32,
+    "subtotal_price": 3466,
+    "total_tax": 173.3,
+    "total_discounts": 272.68,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2002,
+        "title": "Dyson Supersonic",
+        "quantity": 2,
+        "price": 362,
+        "discount": 0,
+        "total": 724,
+        "sku": "SKU-003"
+      },
+      {
+        "product_id": 2006,
+        "title": "T3 Micro Wand",
+        "quantity": 3,
+        "price": 663,
+        "discount": 0,
+        "total": 1989,
+        "sku": "SKU-007"
+      },
+      {
+        "product_id": 2004,
+        "title": "Moroccanoil Treatment",
+        "quantity": 3,
+        "price": 51,
+        "discount": 0,
+        "total": 153,
+        "sku": "SKU-005"
+      },
+      {
+        "product_id": 2009,
+        "title": "Redken Extreme",
+        "quantity": 2,
+        "price": 300,
+        "discount": 0,
+        "total": 600,
+        "sku": "SKU-010"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2026-03-15T07:04:03.742681",
+    "updated_at": "2026-03-27T07:04:03.742685"
+  },
+  {
+    "shopify_id": 5041,
+    "order_number": "#1042",
+    "email": "customer13@example.com",
+    "customer_id": 1013,
+    "financial_status": "paid",
+    "fulfillment_status": "partial",
+    "total_price": 1631.83,
+    "subtotal_price": 1871,
+    "total_tax": 93.55,
+    "total_discounts": 239.17,
+    "total_shipping": 25,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2005,
+        "title": "GHD Platinum+",
+        "quantity": 1,
+        "price": 269,
+        "discount": 0,
+        "total": 269,
+        "sku": "SKU-006"
+      },
+      {
+        "product_id": 2002,
+        "title": "Dyson Supersonic",
+        "quantity": 1,
+        "price": 362,
+        "discount": 0,
+        "total": 362,
+        "sku": "SKU-003"
+      },
+      {
+        "product_id": 2013,
+        "title": "Conair InfinitiPro",
+        "quantity": 2,
+        "price": 620,
+        "discount": 0,
+        "total": 1240,
+        "sku": "SKU-014"
+      }
+    ],
+    "channel": "facebook",
+    "created_at": "2026-02-15T07:04:03.742704",
+    "updated_at": "2026-03-27T07:04:03.742709"
+  },
+  {
+    "shopify_id": 5042,
+    "order_number": "#1043",
+    "email": "customer18@example.com",
+    "customer_id": 1018,
+    "financial_status": "refunded",
+    "fulfillment_status": "fulfilled",
+    "total_price": 1649.04,
+    "subtotal_price": 1707,
+    "total_tax": 85.35,
+    "total_discounts": 57.96,
+    "total_shipping": 25,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2005,
+        "title": "GHD Platinum+",
+        "quantity": 3,
+        "price": 269,
+        "discount": 0,
+        "total": 807,
+        "sku": "SKU-006"
+      },
+      {
+        "product_id": 2009,
+        "title": "Redken Extreme",
+        "quantity": 3,
+        "price": 300,
+        "discount": 0,
+        "total": 900,
+        "sku": "SKU-010"
+      }
+    ],
+    "channel": "facebook",
+    "created_at": "2025-10-21T07:04:03.742726",
+    "updated_at": "2026-03-27T07:04:03.742737"
+  },
+  {
+    "shopify_id": 5043,
+    "order_number": "#1044",
+    "email": "customer14@example.com",
+    "customer_id": 1014,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 1126.6,
+    "subtotal_price": 1318,
+    "total_tax": 65.9,
+    "total_discounts": 191.4,
+    "total_shipping": 15,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2008,
+        "title": "Schwarzkopf IGORA",
+        "quantity": 2,
+        "price": 659,
+        "discount": 0,
+        "total": 1318,
+        "sku": "SKU-009"
+      }
+    ],
+    "channel": "facebook",
+    "created_at": "2026-01-02T07:04:03.742753",
+    "updated_at": "2026-03-27T07:04:03.742758"
+  },
+  {
+    "shopify_id": 5044,
+    "order_number": "#1045",
+    "email": "customer10@example.com",
+    "customer_id": 1010,
+    "financial_status": "paid",
+    "fulfillment_status": null,
+    "total_price": 5358.37,
+    "subtotal_price": 5936,
+    "total_tax": 296.8,
+    "total_discounts": 577.63,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2010,
+        "title": "Paul Mitchell Tea Tree",
+        "quantity": 3,
+        "price": 102,
+        "discount": 0,
+        "total": 306,
+        "sku": "SKU-011"
+      },
+      {
+        "product_id": 2013,
+        "title": "Conair InfinitiPro",
+        "quantity": 2,
+        "price": 620,
+        "discount": 0,
+        "total": 1240,
+        "sku": "SKU-014"
+      },
+      {
+        "product_id": 2012,
+        "title": "Revlon One-Step",
+        "quantity": 4,
+        "price": 280,
+        "discount": 0,
+        "total": 1120,
+        "sku": "SKU-013"
+      },
+      {
+        "product_id": 2001,
+        "title": "Wahl Senior Cordless",
+        "quantity": 5,
+        "price": 654,
+        "discount": 0,
+        "total": 3270,
+        "sku": "SKU-002"
+      }
+    ],
+    "channel": "shop_app",
+    "created_at": "2026-01-01T07:04:03.742783",
+    "updated_at": "2026-03-27T07:04:03.742788"
+  },
+  {
+    "shopify_id": 5045,
+    "order_number": "#1046",
+    "email": "customer14@example.com",
+    "customer_id": 1014,
+    "financial_status": "paid",
+    "fulfillment_status": "partial",
+    "total_price": 9176.94,
+    "subtotal_price": 9379,
+    "total_tax": 468.95,
+    "total_discounts": 202.06,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2003,
+        "title": "Olaplex No.3",
+        "quantity": 4,
+        "price": 431,
+        "discount": 0,
+        "total": 1724,
+        "sku": "SKU-004"
+      },
+      {
+        "product_id": 2006,
+        "title": "T3 Micro Wand",
+        "quantity": 5,
+        "price": 663,
+        "discount": 0,
+        "total": 3315,
+        "sku": "SKU-007"
+      },
+      {
+        "product_id": 2013,
+        "title": "Conair InfinitiPro",
+        "quantity": 3,
+        "price": 620,
+        "discount": 0,
+        "total": 1860,
+        "sku": "SKU-014"
+      },
+      {
+        "product_id": 2011,
+        "title": "CHI Original",
+        "quantity": 4,
+        "price": 620,
+        "discount": 0,
+        "total": 2480,
+        "sku": "SKU-012"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2025-11-05T07:04:03.742809",
+    "updated_at": "2026-03-27T07:04:03.742814"
+  },
+  {
+    "shopify_id": 5046,
+    "order_number": "#1047",
+    "email": "customer21@example.com",
+    "customer_id": 1021,
+    "financial_status": "paid",
+    "fulfillment_status": "partial",
+    "total_price": 211.21,
+    "subtotal_price": 216,
+    "total_tax": 10.8,
+    "total_discounts": 4.79,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2007,
+        "title": "Kérastase Bain Satin",
+        "quantity": 1,
+        "price": 216,
+        "discount": 0,
+        "total": 216,
+        "sku": "SKU-008"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2026-02-14T07:04:03.742829",
+    "updated_at": "2026-03-27T07:04:03.742834"
+  },
+  {
+    "shopify_id": 5047,
+    "order_number": "#1048",
+    "email": "customer10@example.com",
+    "customer_id": 1010,
+    "financial_status": "refunded",
+    "fulfillment_status": "fulfilled",
+    "total_price": 1062.07,
+    "subtotal_price": 1080,
+    "total_tax": 54.0,
+    "total_discounts": 17.93,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2007,
+        "title": "Kérastase Bain Satin",
+        "quantity": 3,
+        "price": 216,
+        "discount": 0,
+        "total": 648,
+        "sku": "SKU-008"
+      },
+      {
+        "product_id": 2007,
+        "title": "Kérastase Bain Satin",
+        "quantity": 2,
+        "price": 216,
+        "discount": 0,
+        "total": 432,
+        "sku": "SKU-008"
+      }
+    ],
+    "channel": "facebook",
+    "created_at": "2026-03-02T07:04:03.742851",
+    "updated_at": "2026-03-27T07:04:03.742858"
+  },
+  {
+    "shopify_id": 5048,
+    "order_number": "#1049",
+    "email": "customer4@example.com",
+    "customer_id": 1004,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 3231.71,
+    "subtotal_price": 3744,
+    "total_tax": 187.2,
+    "total_discounts": 512.29,
+    "total_shipping": 25,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2009,
+        "title": "Redken Extreme",
+        "quantity": 5,
+        "price": 300,
+        "discount": 0,
+        "total": 1500,
+        "sku": "SKU-010"
+      },
+      {
+        "product_id": 2011,
+        "title": "CHI Original",
+        "quantity": 2,
+        "price": 620,
+        "discount": 0,
+        "total": 1240,
+        "sku": "SKU-012"
+      },
+      {
+        "product_id": 2002,
+        "title": "Dyson Supersonic",
+        "quantity": 2,
+        "price": 362,
+        "discount": 0,
+        "total": 724,
+        "sku": "SKU-003"
+      },
+      {
+        "product_id": 2012,
+        "title": "Revlon One-Step",
+        "quantity": 1,
+        "price": 280,
+        "discount": 0,
+        "total": 280,
+        "sku": "SKU-013"
+      }
+    ],
+    "channel": "facebook",
+    "created_at": "2025-11-17T07:04:03.742879",
+    "updated_at": "2026-03-27T07:04:03.742884"
+  },
+  {
+    "shopify_id": 5049,
+    "order_number": "#1050",
+    "email": "customer5@example.com",
+    "customer_id": 1005,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 4385.84,
+    "subtotal_price": 4444,
+    "total_tax": 222.2,
+    "total_discounts": 58.16,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2009,
+        "title": "Redken Extreme",
+        "quantity": 4,
+        "price": 300,
+        "discount": 0,
+        "total": 1200,
+        "sku": "SKU-010"
+      },
+      {
+        "product_id": 2002,
+        "title": "Dyson Supersonic",
+        "quantity": 3,
+        "price": 362,
+        "discount": 0,
+        "total": 1086,
+        "sku": "SKU-003"
+      },
+      {
+        "product_id": 2008,
+        "title": "Schwarzkopf IGORA",
+        "quantity": 2,
+        "price": 659,
+        "discount": 0,
+        "total": 1318,
+        "sku": "SKU-009"
+      },
+      {
+        "product_id": 2012,
+        "title": "Revlon One-Step",
+        "quantity": 3,
+        "price": 280,
+        "discount": 0,
+        "total": 840,
+        "sku": "SKU-013"
+      }
+    ],
+    "channel": "facebook",
+    "created_at": "2025-12-22T07:04:03.742907",
+    "updated_at": "2026-03-27T07:04:03.742912"
+  },
+  {
+    "shopify_id": 5050,
+    "order_number": "#1051",
+    "email": "customer18@example.com",
+    "customer_id": 1018,
+    "financial_status": "paid",
+    "fulfillment_status": "partial",
+    "total_price": 2467.67,
+    "subtotal_price": 2636,
+    "total_tax": 131.8,
+    "total_discounts": 168.33,
+    "total_shipping": 25,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2008,
+        "title": "Schwarzkopf IGORA",
+        "quantity": 4,
+        "price": 659,
+        "discount": 0,
+        "total": 2636,
+        "sku": "SKU-009"
+      }
+    ],
+    "channel": "pos",
+    "created_at": "2026-03-02T07:04:03.742926",
+    "updated_at": "2026-03-27T07:04:03.742930"
+  },
+  {
+    "shopify_id": 5051,
+    "order_number": "#1052",
+    "email": "customer22@example.com",
+    "customer_id": 1022,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 1059.2,
+    "subtotal_price": 1169,
+    "total_tax": 58.45,
+    "total_discounts": 109.8,
+    "total_shipping": 15,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2009,
+        "title": "Redken Extreme",
+        "quantity": 3,
+        "price": 300,
+        "discount": 0,
+        "total": 900,
+        "sku": "SKU-010"
+      },
+      {
+        "product_id": 2005,
+        "title": "GHD Platinum+",
+        "quantity": 1,
+        "price": 269,
+        "discount": 0,
+        "total": 269,
+        "sku": "SKU-006"
+      }
+    ],
+    "channel": "pos",
+    "created_at": "2025-10-12T07:04:03.742952",
+    "updated_at": "2026-03-27T07:04:03.742957"
+  },
+  {
+    "shopify_id": 5052,
+    "order_number": "#1053",
+    "email": "customer22@example.com",
+    "customer_id": 1022,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 513.62,
+    "subtotal_price": 538,
+    "total_tax": 26.9,
+    "total_discounts": 24.38,
+    "total_shipping": 15,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2005,
+        "title": "GHD Platinum+",
+        "quantity": 2,
+        "price": 269,
+        "discount": 0,
+        "total": 538,
+        "sku": "SKU-006"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2026-01-04T07:04:03.742972",
+    "updated_at": "2026-03-27T07:04:03.742976"
+  },
+  {
+    "shopify_id": 5053,
+    "order_number": "#1054",
+    "email": "customer21@example.com",
+    "customer_id": 1021,
+    "financial_status": "refunded",
+    "fulfillment_status": "fulfilled",
+    "total_price": 3683.57,
+    "subtotal_price": 3770,
+    "total_tax": 188.5,
+    "total_discounts": 86.43,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2004,
+        "title": "Moroccanoil Treatment",
+        "quantity": 1,
+        "price": 51,
+        "discount": 0,
+        "total": 51,
+        "sku": "SKU-005"
+      },
+      {
+        "product_id": 2001,
+        "title": "Wahl Senior Cordless",
+        "quantity": 3,
+        "price": 654,
+        "discount": 0,
+        "total": 1962,
+        "sku": "SKU-002"
+      },
+      {
+        "product_id": 2006,
+        "title": "T3 Micro Wand",
+        "quantity": 2,
+        "price": 663,
+        "discount": 0,
+        "total": 1326,
+        "sku": "SKU-007"
+      },
+      {
+        "product_id": 2003,
+        "title": "Olaplex No.3",
+        "quantity": 1,
+        "price": 431,
+        "discount": 0,
+        "total": 431,
+        "sku": "SKU-004"
+      }
+    ],
+    "channel": "pos",
+    "created_at": "2026-02-22T07:04:03.743000",
+    "updated_at": "2026-03-27T07:04:03.743005"
+  },
+  {
+    "shopify_id": 5054,
+    "order_number": "#1055",
+    "email": "customer16@example.com",
+    "customer_id": 1016,
+    "financial_status": "paid",
+    "fulfillment_status": null,
+    "total_price": 3514.6,
+    "subtotal_price": 3803,
+    "total_tax": 190.15,
+    "total_discounts": 288.4,
+    "total_shipping": 25,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2007,
+        "title": "Kérastase Bain Satin",
+        "quantity": 5,
+        "price": 216,
+        "discount": 0,
+        "total": 1080,
+        "sku": "SKU-008"
+      },
+      {
+        "product_id": 2000,
+        "title": "Babyliss Pro Nano Titanium",
+        "quantity": 4,
+        "price": 573,
+        "discount": 0,
+        "total": 2292,
+        "sku": "SKU-001"
+      },
+      {
+        "product_id": 2003,
+        "title": "Olaplex No.3",
+        "quantity": 1,
+        "price": 431,
+        "discount": 0,
+        "total": 431,
+        "sku": "SKU-004"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2025-12-20T07:04:03.743023",
+    "updated_at": "2026-03-27T07:04:03.743028"
+  },
+  {
+    "shopify_id": 5055,
+    "order_number": "#1056",
+    "email": "customer16@example.com",
+    "customer_id": 1016,
+    "financial_status": "paid",
+    "fulfillment_status": null,
+    "total_price": 2500.41,
+    "subtotal_price": 2912,
+    "total_tax": 145.6,
+    "total_discounts": 411.59,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2007,
+        "title": "Kérastase Bain Satin",
+        "quantity": 2,
+        "price": 216,
+        "discount": 0,
+        "total": 432,
+        "sku": "SKU-008"
+      },
+      {
+        "product_id": 2011,
+        "title": "CHI Original",
+        "quantity": 4,
+        "price": 620,
+        "discount": 0,
+        "total": 2480,
+        "sku": "SKU-012"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2025-10-10T07:04:03.743044",
+    "updated_at": "2026-03-27T07:04:03.743048"
+  },
+  {
+    "shopify_id": 5056,
+    "order_number": "#1057",
+    "email": "customer0@example.com",
+    "customer_id": 1000,
+    "financial_status": "paid",
+    "fulfillment_status": "partial",
+    "total_price": 2965.74,
+    "subtotal_price": 2978,
+    "total_tax": 148.9,
+    "total_discounts": 12.26,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2002,
+        "title": "Dyson Supersonic",
+        "quantity": 1,
+        "price": 362,
+        "discount": 0,
+        "total": 362,
+        "sku": "SKU-003"
+      },
+      {
+        "product_id": 2001,
+        "title": "Wahl Senior Cordless",
+        "quantity": 4,
+        "price": 654,
+        "discount": 0,
+        "total": 2616,
+        "sku": "SKU-002"
+      }
+    ],
+    "channel": "shop_app",
+    "created_at": "2025-10-05T07:04:03.743064",
+    "updated_at": "2026-03-27T07:04:03.743073"
+  },
+  {
+    "shopify_id": 5057,
+    "order_number": "#1058",
+    "email": "customer21@example.com",
+    "customer_id": 1021,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 710.35,
+    "subtotal_price": 761,
+    "total_tax": 38.05,
+    "total_discounts": 50.65,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2010,
+        "title": "Paul Mitchell Tea Tree",
+        "quantity": 1,
+        "price": 102,
+        "discount": 0,
+        "total": 102,
+        "sku": "SKU-011"
+      },
+      {
+        "product_id": 2008,
+        "title": "Schwarzkopf IGORA",
+        "quantity": 1,
+        "price": 659,
+        "discount": 0,
+        "total": 659,
+        "sku": "SKU-009"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2026-03-03T07:04:03.743090",
+    "updated_at": "2026-03-27T07:04:03.743095"
+  },
+  {
+    "shopify_id": 5058,
+    "order_number": "#1059",
+    "email": "customer17@example.com",
+    "customer_id": 1017,
+    "financial_status": "paid",
+    "fulfillment_status": "partial",
+    "total_price": 403.5,
+    "subtotal_price": 459,
+    "total_tax": 22.95,
+    "total_discounts": 55.5,
+    "total_shipping": 15,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2010,
+        "title": "Paul Mitchell Tea Tree",
+        "quantity": 2,
+        "price": 102,
+        "discount": 0,
+        "total": 204,
+        "sku": "SKU-011"
+      },
+      {
+        "product_id": 2004,
+        "title": "Moroccanoil Treatment",
+        "quantity": 5,
+        "price": 51,
+        "discount": 0,
+        "total": 255,
+        "sku": "SKU-005"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2025-12-14T07:04:03.743111",
+    "updated_at": "2026-03-27T07:04:03.743116"
+  },
+  {
+    "shopify_id": 5059,
+    "order_number": "#1060",
+    "email": "customer24@example.com",
+    "customer_id": 1024,
+    "financial_status": "pending",
+    "fulfillment_status": "fulfilled",
+    "total_price": 396.82,
+    "subtotal_price": 408,
+    "total_tax": 20.4,
+    "total_discounts": 11.18,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2010,
+        "title": "Paul Mitchell Tea Tree",
+        "quantity": 4,
+        "price": 102,
+        "discount": 0,
+        "total": 408,
+        "sku": "SKU-011"
+      }
+    ],
+    "channel": "shop_app",
+    "created_at": "2025-10-22T07:04:03.743132",
+    "updated_at": "2026-03-27T07:04:03.743137"
+  },
+  {
+    "shopify_id": 5060,
+    "order_number": "#1061",
+    "email": "customer11@example.com",
+    "customer_id": 1011,
+    "financial_status": "refunded",
+    "fulfillment_status": "fulfilled",
+    "total_price": 3421.11,
+    "subtotal_price": 3448,
+    "total_tax": 172.4,
+    "total_discounts": 26.89,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2004,
+        "title": "Moroccanoil Treatment",
+        "quantity": 3,
+        "price": 51,
+        "discount": 0,
+        "total": 153,
+        "sku": "SKU-005"
+      },
+      {
+        "product_id": 2008,
+        "title": "Schwarzkopf IGORA",
+        "quantity": 5,
+        "price": 659,
+        "discount": 0,
+        "total": 3295,
+        "sku": "SKU-009"
+      }
+    ],
+    "channel": "shop_app",
+    "created_at": "2025-12-08T07:04:03.743154",
+    "updated_at": "2026-03-27T07:04:03.743158"
+  },
+  {
+    "shopify_id": 5061,
+    "order_number": "#1062",
+    "email": "customer9@example.com",
+    "customer_id": 1009,
+    "financial_status": "paid",
+    "fulfillment_status": null,
+    "total_price": 4737.59,
+    "subtotal_price": 4928,
+    "total_tax": 246.4,
+    "total_discounts": 190.41,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2006,
+        "title": "T3 Micro Wand",
+        "quantity": 1,
+        "price": 663,
+        "discount": 0,
+        "total": 663,
+        "sku": "SKU-007"
+      },
+      {
+        "product_id": 2012,
+        "title": "Revlon One-Step",
+        "quantity": 5,
+        "price": 280,
+        "discount": 0,
+        "total": 1400,
+        "sku": "SKU-013"
+      },
+      {
+        "product_id": 2000,
+        "title": "Babyliss Pro Nano Titanium",
+        "quantity": 5,
+        "price": 573,
+        "discount": 0,
+        "total": 2865,
+        "sku": "SKU-001"
+      }
+    ],
+    "channel": "shop_app",
+    "created_at": "2026-03-06T07:04:03.743176",
+    "updated_at": "2026-03-27T07:04:03.743180"
+  },
+  {
+    "shopify_id": 5062,
+    "order_number": "#1063",
+    "email": "customer7@example.com",
+    "customer_id": 1007,
+    "financial_status": "refunded",
+    "fulfillment_status": "fulfilled",
+    "total_price": 3159.99,
+    "subtotal_price": 3519,
+    "total_tax": 175.95,
+    "total_discounts": 359.01,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2010,
+        "title": "Paul Mitchell Tea Tree",
+        "quantity": 2,
+        "price": 102,
+        "discount": 0,
+        "total": 204,
+        "sku": "SKU-011"
+      },
+      {
+        "product_id": 2006,
+        "title": "T3 Micro Wand",
+        "quantity": 5,
+        "price": 663,
+        "discount": 0,
+        "total": 3315,
+        "sku": "SKU-007"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2025-10-22T07:04:03.743195",
+    "updated_at": "2026-03-27T07:04:03.743200"
+  },
+  {
+    "shopify_id": 5063,
+    "order_number": "#1064",
+    "email": "customer0@example.com",
+    "customer_id": 1000,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 3529.77,
+    "subtotal_price": 3717,
+    "total_tax": 185.85,
+    "total_discounts": 187.23,
+    "total_shipping": 25,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2010,
+        "title": "Paul Mitchell Tea Tree",
+        "quantity": 1,
+        "price": 102,
+        "discount": 0,
+        "total": 102,
+        "sku": "SKU-011"
+      },
+      {
+        "product_id": 2013,
+        "title": "Conair InfinitiPro",
+        "quantity": 3,
+        "price": 620,
+        "discount": 0,
+        "total": 1860,
+        "sku": "SKU-014"
+      },
+      {
+        "product_id": 2009,
+        "title": "Redken Extreme",
+        "quantity": 5,
+        "price": 300,
+        "discount": 0,
+        "total": 1500,
+        "sku": "SKU-010"
+      },
+      {
+        "product_id": 2004,
+        "title": "Moroccanoil Treatment",
+        "quantity": 5,
+        "price": 51,
+        "discount": 0,
+        "total": 255,
+        "sku": "SKU-005"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2025-11-16T07:04:03.743220",
+    "updated_at": "2026-03-27T07:04:03.743224"
+  },
+  {
+    "shopify_id": 5064,
+    "order_number": "#1065",
+    "email": "customer17@example.com",
+    "customer_id": 1017,
+    "financial_status": "refunded",
+    "fulfillment_status": "fulfilled",
+    "total_price": 3678.83,
+    "subtotal_price": 3933,
+    "total_tax": 196.65,
+    "total_discounts": 254.17,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2011,
+        "title": "CHI Original",
+        "quantity": 2,
+        "price": 620,
+        "discount": 0,
+        "total": 1240,
+        "sku": "SKU-012"
+      },
+      {
+        "product_id": 2003,
+        "title": "Olaplex No.3",
+        "quantity": 3,
+        "price": 431,
+        "discount": 0,
+        "total": 1293,
+        "sku": "SKU-004"
+      },
+      {
+        "product_id": 2012,
+        "title": "Revlon One-Step",
+        "quantity": 5,
+        "price": 280,
+        "discount": 0,
+        "total": 1400,
+        "sku": "SKU-013"
+      }
+    ],
+    "channel": "shop_app",
+    "created_at": "2026-03-21T07:04:03.743243",
+    "updated_at": "2026-03-27T07:04:03.743247"
+  },
+  {
+    "shopify_id": 5065,
+    "order_number": "#1066",
+    "email": "customer23@example.com",
+    "customer_id": 1023,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 2221.74,
+    "subtotal_price": 2448,
+    "total_tax": 122.4,
+    "total_discounts": 226.26,
+    "total_shipping": 15,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2004,
+        "title": "Moroccanoil Treatment",
+        "quantity": 3,
+        "price": 51,
+        "discount": 0,
+        "total": 153,
+        "sku": "SKU-005"
+      },
+      {
+        "product_id": 2006,
+        "title": "T3 Micro Wand",
+        "quantity": 2,
+        "price": 663,
+        "discount": 0,
+        "total": 1326,
+        "sku": "SKU-007"
+      },
+      {
+        "product_id": 2005,
+        "title": "GHD Platinum+",
+        "quantity": 2,
+        "price": 269,
+        "discount": 0,
+        "total": 538,
+        "sku": "SKU-006"
+      },
+      {
+        "product_id": 2003,
+        "title": "Olaplex No.3",
+        "quantity": 1,
+        "price": 431,
+        "discount": 0,
+        "total": 431,
+        "sku": "SKU-004"
+      }
+    ],
+    "channel": "pos",
+    "created_at": "2026-01-10T07:04:03.743268",
+    "updated_at": "2026-03-27T07:04:03.743272"
+  },
+  {
+    "shopify_id": 5066,
+    "order_number": "#1067",
+    "email": "customer15@example.com",
+    "customer_id": 1015,
+    "financial_status": "pending",
+    "fulfillment_status": "fulfilled",
+    "total_price": 1814.79,
+    "subtotal_price": 1885,
+    "total_tax": 94.25,
+    "total_discounts": 70.21,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2002,
+        "title": "Dyson Supersonic",
+        "quantity": 1,
+        "price": 362,
+        "discount": 0,
+        "total": 362,
+        "sku": "SKU-003"
+      },
+      {
+        "product_id": 2007,
+        "title": "Kérastase Bain Satin",
+        "quantity": 3,
+        "price": 216,
+        "discount": 0,
+        "total": 648,
+        "sku": "SKU-008"
+      },
+      {
+        "product_id": 2008,
+        "title": "Schwarzkopf IGORA",
+        "quantity": 1,
+        "price": 659,
+        "discount": 0,
+        "total": 659,
+        "sku": "SKU-009"
+      },
+      {
+        "product_id": 2007,
+        "title": "Kérastase Bain Satin",
+        "quantity": 1,
+        "price": 216,
+        "discount": 0,
+        "total": 216,
+        "sku": "SKU-008"
+      }
+    ],
+    "channel": "shop_app",
+    "created_at": "2026-01-28T07:04:03.743298",
+    "updated_at": "2026-03-27T07:04:03.743302"
+  },
+  {
+    "shopify_id": 5067,
+    "order_number": "#1068",
+    "email": "customer10@example.com",
+    "customer_id": 1010,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 1509.62,
+    "subtotal_price": 1582,
+    "total_tax": 79.1,
+    "total_discounts": 72.38,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2004,
+        "title": "Moroccanoil Treatment",
+        "quantity": 4,
+        "price": 51,
+        "discount": 0,
+        "total": 204,
+        "sku": "SKU-005"
+      },
+      {
+        "product_id": 2005,
+        "title": "GHD Platinum+",
+        "quantity": 2,
+        "price": 269,
+        "discount": 0,
+        "total": 538,
+        "sku": "SKU-006"
+      },
+      {
+        "product_id": 2012,
+        "title": "Revlon One-Step",
+        "quantity": 3,
+        "price": 280,
+        "discount": 0,
+        "total": 840,
+        "sku": "SKU-013"
+      }
+    ],
+    "channel": "pos",
+    "created_at": "2025-11-08T07:04:03.743359",
+    "updated_at": "2026-03-27T07:04:03.743367"
+  },
+  {
+    "shopify_id": 5068,
+    "order_number": "#1069",
+    "email": "customer0@example.com",
+    "customer_id": 1000,
+    "financial_status": "paid",
+    "fulfillment_status": "partial",
+    "total_price": 620.72,
+    "subtotal_price": 663,
+    "total_tax": 33.15,
+    "total_discounts": 42.28,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2006,
+        "title": "T3 Micro Wand",
+        "quantity": 1,
+        "price": 663,
+        "discount": 0,
+        "total": 663,
+        "sku": "SKU-007"
+      }
+    ],
+    "channel": "shop_app",
+    "created_at": "2025-11-11T07:04:03.743385",
+    "updated_at": "2026-03-27T07:04:03.743390"
+  },
+  {
+    "shopify_id": 5069,
+    "order_number": "#1070",
+    "email": "customer22@example.com",
+    "customer_id": 1022,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 1482.09,
+    "subtotal_price": 1557,
+    "total_tax": 77.85,
+    "total_discounts": 74.91,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2005,
+        "title": "GHD Platinum+",
+        "quantity": 3,
+        "price": 269,
+        "discount": 0,
+        "total": 807,
+        "sku": "SKU-006"
+      },
+      {
+        "product_id": 2007,
+        "title": "Kérastase Bain Satin",
+        "quantity": 3,
+        "price": 216,
+        "discount": 0,
+        "total": 648,
+        "sku": "SKU-008"
+      },
+      {
+        "product_id": 2004,
+        "title": "Moroccanoil Treatment",
+        "quantity": 2,
+        "price": 51,
+        "discount": 0,
+        "total": 102,
+        "sku": "SKU-005"
+      }
+    ],
+    "channel": "pos",
+    "created_at": "2025-11-02T07:04:03.743417",
+    "updated_at": "2026-03-27T07:04:03.743423"
+  },
+  {
+    "shopify_id": 5070,
+    "order_number": "#1071",
+    "email": "customer20@example.com",
+    "customer_id": 1020,
+    "financial_status": "paid",
+    "fulfillment_status": "partial",
+    "total_price": 3845.62,
+    "subtotal_price": 3985,
+    "total_tax": 199.25,
+    "total_discounts": 139.38,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2013,
+        "title": "Conair InfinitiPro",
+        "quantity": 2,
+        "price": 620,
+        "discount": 0,
+        "total": 1240,
+        "sku": "SKU-014"
+      },
+      {
+        "product_id": 2001,
+        "title": "Wahl Senior Cordless",
+        "quantity": 1,
+        "price": 654,
+        "discount": 0,
+        "total": 654,
+        "sku": "SKU-002"
+      },
+      {
+        "product_id": 2010,
+        "title": "Paul Mitchell Tea Tree",
+        "quantity": 1,
+        "price": 102,
+        "discount": 0,
+        "total": 102,
+        "sku": "SKU-011"
+      },
+      {
+        "product_id": 2006,
+        "title": "T3 Micro Wand",
+        "quantity": 3,
+        "price": 663,
+        "discount": 0,
+        "total": 1989,
+        "sku": "SKU-007"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2025-11-30T07:04:03.743449",
+    "updated_at": "2026-03-27T07:04:03.743455"
+  },
+  {
+    "shopify_id": 5071,
+    "order_number": "#1072",
+    "email": "customer5@example.com",
+    "customer_id": 1005,
+    "financial_status": "pending",
+    "fulfillment_status": "fulfilled",
+    "total_price": 1958.6,
+    "subtotal_price": 2181,
+    "total_tax": 109.05,
+    "total_discounts": 222.4,
+    "total_shipping": 15,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2008,
+        "title": "Schwarzkopf IGORA",
+        "quantity": 3,
+        "price": 659,
+        "discount": 0,
+        "total": 1977,
+        "sku": "SKU-009"
+      },
+      {
+        "product_id": 2004,
+        "title": "Moroccanoil Treatment",
+        "quantity": 4,
+        "price": 51,
+        "discount": 0,
+        "total": 204,
+        "sku": "SKU-005"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2026-03-16T07:04:03.743474",
+    "updated_at": "2026-03-27T07:04:03.743480"
+  },
+  {
+    "shopify_id": 5072,
+    "order_number": "#1073",
+    "email": "customer12@example.com",
+    "customer_id": 1012,
+    "financial_status": "refunded",
+    "fulfillment_status": null,
+    "total_price": 1310.88,
+    "subtotal_price": 1500,
+    "total_tax": 75.0,
+    "total_discounts": 189.12,
+    "total_shipping": 15,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2009,
+        "title": "Redken Extreme",
+        "quantity": 5,
+        "price": 300,
+        "discount": 0,
+        "total": 1500,
+        "sku": "SKU-010"
+      }
+    ],
+    "channel": "pos",
+    "created_at": "2026-02-24T07:04:03.743496",
+    "updated_at": "2026-03-27T07:04:03.743501"
+  },
+  {
+    "shopify_id": 5073,
+    "order_number": "#1074",
+    "email": "customer3@example.com",
+    "customer_id": 1003,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 3311.56,
+    "subtotal_price": 3406,
+    "total_tax": 170.3,
+    "total_discounts": 94.44,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2011,
+        "title": "CHI Original",
+        "quantity": 5,
+        "price": 620,
+        "discount": 0,
+        "total": 3100,
+        "sku": "SKU-012"
+      },
+      {
+        "product_id": 2010,
+        "title": "Paul Mitchell Tea Tree",
+        "quantity": 3,
+        "price": 102,
+        "discount": 0,
+        "total": 306,
+        "sku": "SKU-011"
+      }
+    ],
+    "channel": "facebook",
+    "created_at": "2025-10-15T07:04:03.743521",
+    "updated_at": "2026-03-27T07:04:03.743527"
+  },
+  {
+    "shopify_id": 5074,
+    "order_number": "#1075",
+    "email": "customer7@example.com",
+    "customer_id": 1007,
+    "financial_status": "pending",
+    "fulfillment_status": "partial",
+    "total_price": 1044.57,
+    "subtotal_price": 1193,
+    "total_tax": 59.65,
+    "total_discounts": 148.43,
+    "total_shipping": 25,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2004,
+        "title": "Moroccanoil Treatment",
+        "quantity": 2,
+        "price": 51,
+        "discount": 0,
+        "total": 102,
+        "sku": "SKU-005"
+      },
+      {
+        "product_id": 2007,
+        "title": "Kérastase Bain Satin",
+        "quantity": 2,
+        "price": 216,
+        "discount": 0,
+        "total": 432,
+        "sku": "SKU-008"
+      },
+      {
+        "product_id": 2008,
+        "title": "Schwarzkopf IGORA",
+        "quantity": 1,
+        "price": 659,
+        "discount": 0,
+        "total": 659,
+        "sku": "SKU-009"
+      }
+    ],
+    "channel": "facebook",
+    "created_at": "2025-10-22T07:04:03.743552",
+    "updated_at": "2026-03-27T07:04:03.743557"
+  },
+  {
+    "shopify_id": 5075,
+    "order_number": "#1076",
+    "email": "customer1@example.com",
+    "customer_id": 1001,
+    "financial_status": "pending",
+    "fulfillment_status": null,
+    "total_price": 2313.73,
+    "subtotal_price": 2696,
+    "total_tax": 134.8,
+    "total_discounts": 382.27,
+    "total_shipping": 15,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2002,
+        "title": "Dyson Supersonic",
+        "quantity": 4,
+        "price": 362,
+        "discount": 0,
+        "total": 1448,
+        "sku": "SKU-003"
+      },
+      {
+        "product_id": 2010,
+        "title": "Paul Mitchell Tea Tree",
+        "quantity": 1,
+        "price": 102,
+        "discount": 0,
+        "total": 102,
+        "sku": "SKU-011"
+      },
+      {
+        "product_id": 2000,
+        "title": "Babyliss Pro Nano Titanium",
+        "quantity": 2,
+        "price": 573,
+        "discount": 0,
+        "total": 1146,
+        "sku": "SKU-001"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2025-10-22T07:04:03.743578",
+    "updated_at": "2026-03-27T07:04:03.743583"
+  },
+  {
+    "shopify_id": 5076,
+    "order_number": "#1077",
+    "email": "customer7@example.com",
+    "customer_id": 1007,
+    "financial_status": "pending",
+    "fulfillment_status": "fulfilled",
+    "total_price": 2816.49,
+    "subtotal_price": 3297,
+    "total_tax": 164.85,
+    "total_discounts": 480.51,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2000,
+        "title": "Babyliss Pro Nano Titanium",
+        "quantity": 5,
+        "price": 573,
+        "discount": 0,
+        "total": 2865,
+        "sku": "SKU-001"
+      },
+      {
+        "product_id": 2007,
+        "title": "Kérastase Bain Satin",
+        "quantity": 2,
+        "price": 216,
+        "discount": 0,
+        "total": 432,
+        "sku": "SKU-008"
+      }
+    ],
+    "channel": "shop_app",
+    "created_at": "2026-01-13T07:04:03.743601",
+    "updated_at": "2026-03-27T07:04:03.743605"
+  },
+  {
+    "shopify_id": 5077,
+    "order_number": "#1078",
+    "email": "customer20@example.com",
+    "customer_id": 1020,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 3890.63,
+    "subtotal_price": 4230,
+    "total_tax": 211.5,
+    "total_discounts": 339.37,
+    "total_shipping": 15,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2000,
+        "title": "Babyliss Pro Nano Titanium",
+        "quantity": 4,
+        "price": 573,
+        "discount": 0,
+        "total": 2292,
+        "sku": "SKU-001"
+      },
+      {
+        "product_id": 2012,
+        "title": "Revlon One-Step",
+        "quantity": 5,
+        "price": 280,
+        "discount": 0,
+        "total": 1400,
+        "sku": "SKU-013"
+      },
+      {
+        "product_id": 2005,
+        "title": "GHD Platinum+",
+        "quantity": 2,
+        "price": 269,
+        "discount": 0,
+        "total": 538,
+        "sku": "SKU-006"
+      }
+    ],
+    "channel": "shop_app",
+    "created_at": "2025-12-11T07:04:03.743626",
+    "updated_at": "2026-03-27T07:04:03.743631"
+  },
+  {
+    "shopify_id": 5078,
+    "order_number": "#1079",
+    "email": "customer0@example.com",
+    "customer_id": 1000,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 1323.99,
+    "subtotal_price": 1500,
+    "total_tax": 75.0,
+    "total_discounts": 176.01,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2009,
+        "title": "Redken Extreme",
+        "quantity": 5,
+        "price": 300,
+        "discount": 0,
+        "total": 1500,
+        "sku": "SKU-010"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2025-10-21T07:04:03.743647",
+    "updated_at": "2026-03-27T07:04:03.743651"
+  },
+  {
+    "shopify_id": 5079,
+    "order_number": "#1080",
+    "email": "customer14@example.com",
+    "customer_id": 1014,
+    "financial_status": "paid",
+    "fulfillment_status": null,
+    "total_price": 671.35,
+    "subtotal_price": 724,
+    "total_tax": 36.2,
+    "total_discounts": 52.65,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2002,
+        "title": "Dyson Supersonic",
+        "quantity": 2,
+        "price": 362,
+        "discount": 0,
+        "total": 724,
+        "sku": "SKU-003"
+      }
+    ],
+    "channel": "facebook",
+    "created_at": "2026-03-15T07:04:03.743671",
+    "updated_at": "2026-03-27T07:04:03.743677"
+  },
+  {
+    "shopify_id": 5080,
+    "order_number": "#1081",
+    "email": "customer3@example.com",
+    "customer_id": 1003,
+    "financial_status": "pending",
+    "fulfillment_status": "fulfilled",
+    "total_price": 3717.85,
+    "subtotal_price": 3805,
+    "total_tax": 190.25,
+    "total_discounts": 87.15,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2010,
+        "title": "Paul Mitchell Tea Tree",
+        "quantity": 5,
+        "price": 102,
+        "discount": 0,
+        "total": 510,
+        "sku": "SKU-011"
+      },
+      {
+        "product_id": 2008,
+        "title": "Schwarzkopf IGORA",
+        "quantity": 5,
+        "price": 659,
+        "discount": 0,
+        "total": 3295,
+        "sku": "SKU-009"
+      }
+    ],
+    "channel": "pos",
+    "created_at": "2026-03-24T07:04:03.743695",
+    "updated_at": "2026-03-27T07:04:03.743700"
+  },
+  {
+    "shopify_id": 5081,
+    "order_number": "#1082",
+    "email": "customer16@example.com",
+    "customer_id": 1016,
+    "financial_status": "refunded",
+    "fulfillment_status": "partial",
+    "total_price": 1573.23,
+    "subtotal_price": 1783,
+    "total_tax": 89.15,
+    "total_discounts": 209.77,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2012,
+        "title": "Revlon One-Step",
+        "quantity": 1,
+        "price": 280,
+        "discount": 0,
+        "total": 280,
+        "sku": "SKU-013"
+      },
+      {
+        "product_id": 2006,
+        "title": "T3 Micro Wand",
+        "quantity": 1,
+        "price": 663,
+        "discount": 0,
+        "total": 663,
+        "sku": "SKU-007"
+      },
+      {
+        "product_id": 2007,
+        "title": "Kérastase Bain Satin",
+        "quantity": 2,
+        "price": 216,
+        "discount": 0,
+        "total": 432,
+        "sku": "SKU-008"
+      },
+      {
+        "product_id": 2010,
+        "title": "Paul Mitchell Tea Tree",
+        "quantity": 4,
+        "price": 102,
+        "discount": 0,
+        "total": 408,
+        "sku": "SKU-011"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2025-11-11T07:04:03.743729",
+    "updated_at": "2026-03-27T07:04:03.743736"
+  },
+  {
+    "shopify_id": 5082,
+    "order_number": "#1083",
+    "email": "customer1@example.com",
+    "customer_id": 1001,
+    "financial_status": "pending",
+    "fulfillment_status": null,
+    "total_price": 4266.31,
+    "subtotal_price": 4368,
+    "total_tax": 218.4,
+    "total_discounts": 101.69,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2004,
+        "title": "Moroccanoil Treatment",
+        "quantity": 3,
+        "price": 51,
+        "discount": 0,
+        "total": 153,
+        "sku": "SKU-005"
+      },
+      {
+        "product_id": 2009,
+        "title": "Redken Extreme",
+        "quantity": 3,
+        "price": 300,
+        "discount": 0,
+        "total": 900,
+        "sku": "SKU-010"
+      },
+      {
+        "product_id": 2006,
+        "title": "T3 Micro Wand",
+        "quantity": 5,
+        "price": 663,
+        "discount": 0,
+        "total": 3315,
+        "sku": "SKU-007"
+      }
+    ],
+    "channel": "shop_app",
+    "created_at": "2026-01-25T07:04:03.743764",
+    "updated_at": "2026-03-27T07:04:03.743774"
+  },
+  {
+    "shopify_id": 5083,
+    "order_number": "#1084",
+    "email": "customer10@example.com",
+    "customer_id": 1010,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 3910.5,
+    "subtotal_price": 4270,
+    "total_tax": 213.5,
+    "total_discounts": 359.5,
+    "total_shipping": 15,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2007,
+        "title": "Kérastase Bain Satin",
+        "quantity": 2,
+        "price": 216,
+        "discount": 0,
+        "total": 432,
+        "sku": "SKU-008"
+      },
+      {
+        "product_id": 2010,
+        "title": "Paul Mitchell Tea Tree",
+        "quantity": 1,
+        "price": 102,
+        "discount": 0,
+        "total": 102,
+        "sku": "SKU-011"
+      },
+      {
+        "product_id": 2001,
+        "title": "Wahl Senior Cordless",
+        "quantity": 4,
+        "price": 654,
+        "discount": 0,
+        "total": 2616,
+        "sku": "SKU-002"
+      },
+      {
+        "product_id": 2012,
+        "title": "Revlon One-Step",
+        "quantity": 4,
+        "price": 280,
+        "discount": 0,
+        "total": 1120,
+        "sku": "SKU-013"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2026-03-18T07:04:03.743805",
+    "updated_at": "2026-03-27T07:04:03.743812"
+  },
+  {
+    "shopify_id": 5084,
+    "order_number": "#1085",
+    "email": "customer11@example.com",
+    "customer_id": 1011,
+    "financial_status": "paid",
+    "fulfillment_status": null,
+    "total_price": 44.44,
+    "subtotal_price": 51,
+    "total_tax": 2.55,
+    "total_discounts": 6.56,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2004,
+        "title": "Moroccanoil Treatment",
+        "quantity": 1,
+        "price": 51,
+        "discount": 0,
+        "total": 51,
+        "sku": "SKU-005"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2026-03-16T07:04:03.743829",
+    "updated_at": "2026-03-27T07:04:03.743835"
+  },
+  {
+    "shopify_id": 5085,
+    "order_number": "#1086",
+    "email": "customer19@example.com",
+    "customer_id": 1019,
+    "financial_status": "refunded",
+    "fulfillment_status": "partial",
+    "total_price": 564.19,
+    "subtotal_price": 600,
+    "total_tax": 30.0,
+    "total_discounts": 35.81,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2009,
+        "title": "Redken Extreme",
+        "quantity": 2,
+        "price": 300,
+        "discount": 0,
+        "total": 600,
+        "sku": "SKU-010"
+      }
+    ],
+    "channel": "pos",
+    "created_at": "2025-12-17T07:04:03.743852",
+    "updated_at": "2026-03-27T07:04:03.743857"
+  },
+  {
+    "shopify_id": 5086,
+    "order_number": "#1087",
+    "email": "customer12@example.com",
+    "customer_id": 1012,
+    "financial_status": "refunded",
+    "fulfillment_status": null,
+    "total_price": 6006.76,
+    "subtotal_price": 6452,
+    "total_tax": 322.6,
+    "total_discounts": 445.24,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2002,
+        "title": "Dyson Supersonic",
+        "quantity": 4,
+        "price": 362,
+        "discount": 0,
+        "total": 1448,
+        "sku": "SKU-003"
+      },
+      {
+        "product_id": 2005,
+        "title": "GHD Platinum+",
+        "quantity": 4,
+        "price": 269,
+        "discount": 0,
+        "total": 1076,
+        "sku": "SKU-006"
+      },
+      {
+        "product_id": 2002,
+        "title": "Dyson Supersonic",
+        "quantity": 4,
+        "price": 362,
+        "discount": 0,
+        "total": 1448,
+        "sku": "SKU-003"
+      },
+      {
+        "product_id": 2013,
+        "title": "Conair InfinitiPro",
+        "quantity": 4,
+        "price": 620,
+        "discount": 0,
+        "total": 2480,
+        "sku": "SKU-014"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2025-10-11T07:04:03.743882",
+    "updated_at": "2026-03-27T07:04:03.743889"
+  },
+  {
+    "shopify_id": 5087,
+    "order_number": "#1088",
+    "email": "customer23@example.com",
+    "customer_id": 1023,
+    "financial_status": "paid",
+    "fulfillment_status": "partial",
+    "total_price": 5276.82,
+    "subtotal_price": 5599,
+    "total_tax": 279.95,
+    "total_discounts": 322.18,
+    "total_shipping": 15,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2008,
+        "title": "Schwarzkopf IGORA",
+        "quantity": 1,
+        "price": 659,
+        "discount": 0,
+        "total": 659,
+        "sku": "SKU-009"
+      },
+      {
+        "product_id": 2013,
+        "title": "Conair InfinitiPro",
+        "quantity": 4,
+        "price": 620,
+        "discount": 0,
+        "total": 2480,
+        "sku": "SKU-014"
+      },
+      {
+        "product_id": 2009,
+        "title": "Redken Extreme",
+        "quantity": 2,
+        "price": 300,
+        "discount": 0,
+        "total": 600,
+        "sku": "SKU-010"
+      },
+      {
+        "product_id": 2013,
+        "title": "Conair InfinitiPro",
+        "quantity": 3,
+        "price": 620,
+        "discount": 0,
+        "total": 1860,
+        "sku": "SKU-014"
+      }
+    ],
+    "channel": "shop_app",
+    "created_at": "2025-09-29T07:04:03.743913",
+    "updated_at": "2026-03-27T07:04:03.743919"
+  },
+  {
+    "shopify_id": 5088,
+    "order_number": "#1089",
+    "email": "customer15@example.com",
+    "customer_id": 1015,
+    "financial_status": "paid",
+    "fulfillment_status": "partial",
+    "total_price": 7238.12,
+    "subtotal_price": 7538,
+    "total_tax": 376.9,
+    "total_discounts": 299.88,
+    "total_shipping": 15,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2003,
+        "title": "Olaplex No.3",
+        "quantity": 4,
+        "price": 431,
+        "discount": 0,
+        "total": 1724,
+        "sku": "SKU-004"
+      },
+      {
+        "product_id": 2008,
+        "title": "Schwarzkopf IGORA",
+        "quantity": 5,
+        "price": 659,
+        "discount": 0,
+        "total": 3295,
+        "sku": "SKU-009"
+      },
+      {
+        "product_id": 2008,
+        "title": "Schwarzkopf IGORA",
+        "quantity": 1,
+        "price": 659,
+        "discount": 0,
+        "total": 659,
+        "sku": "SKU-009"
+      },
+      {
+        "product_id": 2011,
+        "title": "CHI Original",
+        "quantity": 3,
+        "price": 620,
+        "discount": 0,
+        "total": 1860,
+        "sku": "SKU-012"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2025-11-27T07:04:03.743942",
+    "updated_at": "2026-03-27T07:04:03.743947"
+  },
+  {
+    "shopify_id": 5089,
+    "order_number": "#1090",
+    "email": "customer22@example.com",
+    "customer_id": 1022,
+    "financial_status": "paid",
+    "fulfillment_status": "partial",
+    "total_price": 43.83,
+    "subtotal_price": 51,
+    "total_tax": 2.55,
+    "total_discounts": 7.17,
+    "total_shipping": 25,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2004,
+        "title": "Moroccanoil Treatment",
+        "quantity": 1,
+        "price": 51,
+        "discount": 0,
+        "total": 51,
+        "sku": "SKU-005"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2026-02-27T07:04:03.743970",
+    "updated_at": "2026-03-27T07:04:03.743975"
+  },
+  {
+    "shopify_id": 5090,
+    "order_number": "#1091",
+    "email": "customer9@example.com",
+    "customer_id": 1009,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 2769.79,
+    "subtotal_price": 3180,
+    "total_tax": 159.0,
+    "total_discounts": 410.21,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2011,
+        "title": "CHI Original",
+        "quantity": 2,
+        "price": 620,
+        "discount": 0,
+        "total": 1240,
+        "sku": "SKU-012"
+      },
+      {
+        "product_id": 2005,
+        "title": "GHD Platinum+",
+        "quantity": 4,
+        "price": 269,
+        "discount": 0,
+        "total": 1076,
+        "sku": "SKU-006"
+      },
+      {
+        "product_id": 2007,
+        "title": "Kérastase Bain Satin",
+        "quantity": 4,
+        "price": 216,
+        "discount": 0,
+        "total": 864,
+        "sku": "SKU-008"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2026-03-10T07:04:03.743995",
+    "updated_at": "2026-03-27T07:04:03.743999"
+  },
+  {
+    "shopify_id": 5091,
+    "order_number": "#1092",
+    "email": "customer11@example.com",
+    "customer_id": 1011,
+    "financial_status": "refunded",
+    "fulfillment_status": null,
+    "total_price": 4527.78,
+    "subtotal_price": 4752,
+    "total_tax": 237.6,
+    "total_discounts": 224.22,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2009,
+        "title": "Redken Extreme",
+        "quantity": 4,
+        "price": 300,
+        "discount": 0,
+        "total": 1200,
+        "sku": "SKU-010"
+      },
+      {
+        "product_id": 2000,
+        "title": "Babyliss Pro Nano Titanium",
+        "quantity": 5,
+        "price": 573,
+        "discount": 0,
+        "total": 2865,
+        "sku": "SKU-001"
+      },
+      {
+        "product_id": 2007,
+        "title": "Kérastase Bain Satin",
+        "quantity": 2,
+        "price": 216,
+        "discount": 0,
+        "total": 432,
+        "sku": "SKU-008"
+      },
+      {
+        "product_id": 2004,
+        "title": "Moroccanoil Treatment",
+        "quantity": 5,
+        "price": 51,
+        "discount": 0,
+        "total": 255,
+        "sku": "SKU-005"
+      }
+    ],
+    "channel": "shop_app",
+    "created_at": "2025-11-04T07:04:03.744021",
+    "updated_at": "2026-03-27T07:04:03.744026"
+  },
+  {
+    "shopify_id": 5092,
+    "order_number": "#1093",
+    "email": "customer1@example.com",
+    "customer_id": 1001,
+    "financial_status": "paid",
+    "fulfillment_status": "partial",
+    "total_price": 246.77,
+    "subtotal_price": 269,
+    "total_tax": 13.45,
+    "total_discounts": 22.23,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2005,
+        "title": "GHD Platinum+",
+        "quantity": 1,
+        "price": 269,
+        "discount": 0,
+        "total": 269,
+        "sku": "SKU-006"
+      }
+    ],
+    "channel": "facebook",
+    "created_at": "2026-03-04T07:04:03.744042",
+    "updated_at": "2026-03-27T07:04:03.744046"
+  },
+  {
+    "shopify_id": 5093,
+    "order_number": "#1094",
+    "email": "customer6@example.com",
+    "customer_id": 1006,
+    "financial_status": "paid",
+    "fulfillment_status": "partial",
+    "total_price": 2058.87,
+    "subtotal_price": 2272,
+    "total_tax": 113.6,
+    "total_discounts": 213.13,
+    "total_shipping": 15,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2011,
+        "title": "CHI Original",
+        "quantity": 1,
+        "price": 620,
+        "discount": 0,
+        "total": 620,
+        "sku": "SKU-012"
+      },
+      {
+        "product_id": 2008,
+        "title": "Schwarzkopf IGORA",
+        "quantity": 1,
+        "price": 659,
+        "discount": 0,
+        "total": 659,
+        "sku": "SKU-009"
+      },
+      {
+        "product_id": 2005,
+        "title": "GHD Platinum+",
+        "quantity": 1,
+        "price": 269,
+        "discount": 0,
+        "total": 269,
+        "sku": "SKU-006"
+      },
+      {
+        "product_id": 2002,
+        "title": "Dyson Supersonic",
+        "quantity": 2,
+        "price": 362,
+        "discount": 0,
+        "total": 724,
+        "sku": "SKU-003"
+      }
+    ],
+    "channel": "pos",
+    "created_at": "2025-10-04T07:04:03.744070",
+    "updated_at": "2026-03-27T07:04:03.744075"
+  },
+  {
+    "shopify_id": 5094,
+    "order_number": "#1095",
+    "email": "customer14@example.com",
+    "customer_id": 1014,
+    "financial_status": "paid",
+    "fulfillment_status": null,
+    "total_price": 1788.61,
+    "subtotal_price": 1887,
+    "total_tax": 94.35,
+    "total_discounts": 98.39,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2007,
+        "title": "Kérastase Bain Satin",
+        "quantity": 5,
+        "price": 216,
+        "discount": 0,
+        "total": 1080,
+        "sku": "SKU-008"
+      },
+      {
+        "product_id": 2005,
+        "title": "GHD Platinum+",
+        "quantity": 3,
+        "price": 269,
+        "discount": 0,
+        "total": 807,
+        "sku": "SKU-006"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2026-03-08T07:04:03.744102",
+    "updated_at": "2026-03-27T07:04:03.744108"
+  },
+  {
+    "shopify_id": 5095,
+    "order_number": "#1096",
+    "email": "customer9@example.com",
+    "customer_id": 1009,
+    "financial_status": "refunded",
+    "fulfillment_status": null,
+    "total_price": 311.29,
+    "subtotal_price": 362,
+    "total_tax": 18.1,
+    "total_discounts": 50.71,
+    "total_shipping": 15,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2002,
+        "title": "Dyson Supersonic",
+        "quantity": 1,
+        "price": 362,
+        "discount": 0,
+        "total": 362,
+        "sku": "SKU-003"
+      }
+    ],
+    "channel": "facebook",
+    "created_at": "2026-02-22T07:04:03.744125",
+    "updated_at": "2026-03-27T07:04:03.744129"
+  },
+  {
+    "shopify_id": 5096,
+    "order_number": "#1097",
+    "email": "customer2@example.com",
+    "customer_id": 1002,
+    "financial_status": "refunded",
+    "fulfillment_status": "fulfilled",
+    "total_price": 2952.78,
+    "subtotal_price": 3041,
+    "total_tax": 152.05,
+    "total_discounts": 88.22,
+    "total_shipping": 25,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2013,
+        "title": "Conair InfinitiPro",
+        "quantity": 3,
+        "price": 620,
+        "discount": 0,
+        "total": 1860,
+        "sku": "SKU-014"
+      },
+      {
+        "product_id": 2010,
+        "title": "Paul Mitchell Tea Tree",
+        "quantity": 4,
+        "price": 102,
+        "discount": 0,
+        "total": 408,
+        "sku": "SKU-011"
+      },
+      {
+        "product_id": 2011,
+        "title": "CHI Original",
+        "quantity": 1,
+        "price": 620,
+        "discount": 0,
+        "total": 620,
+        "sku": "SKU-012"
+      },
+      {
+        "product_id": 2004,
+        "title": "Moroccanoil Treatment",
+        "quantity": 3,
+        "price": 51,
+        "discount": 0,
+        "total": 153,
+        "sku": "SKU-005"
+      }
+    ],
+    "channel": "shop_app",
+    "created_at": "2026-01-04T07:04:03.744152",
+    "updated_at": "2026-03-27T07:04:03.744157"
+  },
+  {
+    "shopify_id": 5097,
+    "order_number": "#1098",
+    "email": "customer14@example.com",
+    "customer_id": 1014,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 796.08,
+    "subtotal_price": 816,
+    "total_tax": 40.8,
+    "total_discounts": 19.92,
+    "total_shipping": 25,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2007,
+        "title": "Kérastase Bain Satin",
+        "quantity": 1,
+        "price": 216,
+        "discount": 0,
+        "total": 216,
+        "sku": "SKU-008"
+      },
+      {
+        "product_id": 2009,
+        "title": "Redken Extreme",
+        "quantity": 2,
+        "price": 300,
+        "discount": 0,
+        "total": 600,
+        "sku": "SKU-010"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2025-11-10T07:04:03.744181",
+    "updated_at": "2026-03-27T07:04:03.744187"
+  },
+  {
+    "shopify_id": 5098,
+    "order_number": "#1099",
+    "email": "customer10@example.com",
+    "customer_id": 1010,
+    "financial_status": "paid",
+    "fulfillment_status": "fulfilled",
+    "total_price": 88.6,
+    "subtotal_price": 102,
+    "total_tax": 5.1,
+    "total_discounts": 13.4,
+    "total_shipping": 15,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2010,
+        "title": "Paul Mitchell Tea Tree",
+        "quantity": 1,
+        "price": 102,
+        "discount": 0,
+        "total": 102,
+        "sku": "SKU-011"
+      }
+    ],
+    "channel": "facebook",
+    "created_at": "2025-10-28T07:04:03.744203",
+    "updated_at": "2026-03-27T07:04:03.744208"
+  },
+  {
+    "shopify_id": 5099,
+    "order_number": "#1100",
+    "email": "customer4@example.com",
+    "customer_id": 1004,
+    "financial_status": "paid",
+    "fulfillment_status": null,
+    "total_price": 495.77,
+    "subtotal_price": 510,
+    "total_tax": 25.5,
+    "total_discounts": 14.23,
+    "total_shipping": 0,
+    "currency": "AED",
+    "items": [
+      {
+        "product_id": 2010,
+        "title": "Paul Mitchell Tea Tree",
+        "quantity": 5,
+        "price": 102,
+        "discount": 0,
+        "total": 510,
+        "sku": "SKU-011"
+      }
+    ],
+    "channel": "online_store",
+    "created_at": "2026-03-12T07:04:03.744231",
+    "updated_at": "2026-03-27T07:04:03.744236"
+  }
+]

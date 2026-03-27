@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFAQ OS V7.0</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; }
+        .header { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); padding: 2rem; border-bottom: 1px solid #334155; }
+        .logo { font-size: 2.5rem; font-weight: 800; background: linear-gradient(135deg, #3b82f6, #8b5cf6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .subtitle { color: #94a3b8; margin-top: 0.5rem; }
+        .container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+        .card { background: #1e293b; border-radius: 12px; padding: 1.5rem; border: 1px solid #334155; transition: transform 0.2s; }
+        .card:hover { transform: translateY(-2px); border-color: #3b82f6; }
+        .card-title { font-size: 0.875rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+        .card-value { font-size: 2rem; font-weight: 700; }
+        .card-sub { color: #64748b; font-size: 0.875rem; margin-top: 0.25rem; }
+        .blue { color: #3b82f6; }
+        .green { color: #22c55e; }
+        .purple { color: #8b5cf6; }
+        .orange { color: #f97316; }
+        .red { color: #ef4444; }
+        .nav { display: flex; gap: 1rem; margin: 2rem 0; flex-wrap: wrap; }
+        .nav a { padding: 0.75rem 1.5rem; background: #1e293b; border: 1px solid #334155; border-radius: 8px; color: #e2e8f0; text-decoration: none; transition: all 0.2s; }
+        .nav a:hover { border-color: #3b82f6; background: #334155; }
+        .section { margin: 2rem 0; }
+        .section-title { font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 0.75rem; text-align: left; border-bottom: 1px solid #334155; }
+        th { color: #94a3b8; font-size: 0.875rem; text-transform: uppercase; }
+        .badge { padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 600; }
+        .badge-champion { background: #22c55e20; color: #22c55e; }
+        .badge-loyal { background: #3b82f620; color: #3b82f6; }
+        .badge-potential { background: #8b5cf620; color: #8b5cf6; }
+        .badge-new { background: #f9731620; color: #f97316; }
+        .badge-at_risk { background: #ef444420; color: #ef4444; }
+        .api-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 0.75rem; }
+        .api-link { background: #0f172a; padding: 0.75rem 1rem; border-radius: 8px; border: 1px solid #334155; display: flex; justify-content: space-between; align-items: center; }
+        .api-link a { color: #3b82f6; text-decoration: none; font-family: monospace; }
+        .api-link a:hover { text-decoration: underline; }
+        .method { font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; font-weight: 600; }
+        .get { background: #22c55e20; color: #22c55e; }
+        .post { background: #3b82f620; color: #3b82f6; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">AFAQ OS V7.0</div>
+        <div class="subtitle">AI-Powered Business Operating System for Dubai Beauty Distribution</div>
+    </div>
+    <div class="container">
+        <div class="nav">
+            <a href="/docs">📚 API Docs</a>
+            <a href="/crm">📊 CRM Dashboard</a>
+            <a href="/api/shopify/dashboard">🛒 Shopify Dashboard</a>
+            <a href="/api/agents/dashboard">🤖 Agents Dashboard</a>
+            <a href="/api/wiki/articles">📖 Wiki</a>
+            <a href="/api/health">❤️ Health Check</a>
+        </div>
+
+        <div class="section">
+            <div class="section-title">🔌 API Endpoints</div>
+            <div class="api-links">
+                <div class="api-link"><span><span class="method get">GET</span> /api/health</span><a href="/api/health">Test</a></div>
+                <div class="api-link"><span><span class="method post">POST</span> /api/shopify/demo/seed</span><a href="/api/shopify/demo/seed">Seed</a></div>
+                <div class="api-link"><span><span class="method get">GET</span> /api/shopify/dashboard</span><a href="/api/shopify/dashboard">View</a></div>
+                <div class="api-link"><span><span class="method get">GET</span> /api/shopify/reports/sales</span><a href="/api/shopify/reports/sales">Sales</a></div>
+                <div class="api-link"><span><span class="method get">GET</span> /api/shopify/reports/rfm</span><a href="/api/shopify/reports/rfm">RFM</a></div>
+                <div class="api-link"><span><span class="method get">GET</span> /api/shopify/reports/inventory</span><a href="/api/shopify/reports/inventory">Inventory</a></div>
+                <div class="api-link"><span><span class="method get">GET</span> /api/agents/leads</span><a href="/api/agents/leads">Leads</a></div>
+                <div class="api-link"><span><span class="method get">GET</span> /api/wiki/articles</span><a href="/api/wiki/articles">Articles</a></div>
+                <div class="api-link"><span><span class="method get">GET</span> /api/crm/contacts</span><a href="/api/crm/contacts">Contacts</a></div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">📊 System Status</div>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-title">🤖 AI Agents</div>
+                    <div class="card-value blue">Online</div>
+                    <div class="card-sub">Arabic/English bilingual chat engine</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">🛒 Shopify Sync</div>
+                    <div class="card-value green">Ready</div>
+                    <div class="card-sub">Configure SHOPIFY_ACCESS_TOKEN to connect</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">📚 Wiki Module</div>
+                    <div class="card-value purple">Online</div>
+                    <div class="card-sub">Product knowledge base with NLP search</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">📊 CRM</div>
+                    <div class="card-value orange">Online</div>
+                    <div class="card-sub">Contact management & pipeline</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
