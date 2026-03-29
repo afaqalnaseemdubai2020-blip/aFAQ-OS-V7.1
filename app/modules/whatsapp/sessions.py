@@ -14,12 +14,14 @@ class SessionManager:
     def _load(self, f):
         fp = os.path.join(DATA_DIR, f)
         if os.path.exists(fp):
-            return json.load(open(fp))
+            with open(fp, "r", encoding="utf-8") as fh:
+                return json.load(fh)
         return []
     
     def _save(self, f, data):
         fp = os.path.join(DATA_DIR, f)
-        json.dump(data, open(fp, "w"), indent=2, ensure_ascii=False)
+        with open(fp, "w", encoding="utf-8") as fh:
+            json.dump(data, fh, indent=2, ensure_ascii=False)
     
     def get_or_create(self, phone, name=None):
         for s in self.sessions:

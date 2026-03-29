@@ -102,13 +102,15 @@ class TrainingEngine:
     def _load(self):
         fp = os.path.join(DATA_DIR, "training.json")
         if os.path.exists(fp):
-            return json.load(open(fp))
+            with open(fp, "r", encoding="utf-8") as f:
+                return json.load(f)
         self._save(DEFAULT_TRAINING)
         return DEFAULT_TRAINING
     
     def _save(self, data=None):
         fp = os.path.join(DATA_DIR, "training.json")
-        json.dump(data or self.examples, open(fp, "w"), indent=2, ensure_ascii=False)
+        with open(fp, "w", encoding="utf-8") as f:
+            json.dump(data or self.examples, f, indent=2, ensure_ascii=False)
     
     def add_example(self, category, examples, response_ar=None, response_en=None, should_escalate=False, tags=None):
         ex = {

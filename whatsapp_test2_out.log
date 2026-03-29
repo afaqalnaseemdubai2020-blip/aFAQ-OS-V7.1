@@ -1,0 +1,6 @@
+INFO:     127.0.0.1:53207 - "GET /api/whatsapp/chat?phone=97100000002&name=TestUser&message=hello HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53207 - "GET /api/whatsapp/chat?phone=97100000002&name=TestUser&message=3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53207 - "GET /api/whatsapp/chat?phone=97100000002&name=TestUser&message=%231045 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53207 - "GET /api/whatsapp/chat?phone=97100000002&name=TestUser&message=menu HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53207 - "GET /api/whatsapp/chat?phone=97100000002&name=TestUser&message=Can%20you%20recommend%20a%20dryer%20for%20frizzy%20hair%20under%20300%20AED HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53207 - "GET /api/whatsapp/chat?phone=97100000002&name=TestUser&message=%D8%A3%D8%B1%D9%8A%D8%AF%20%D9%85%D8%AC%D9%81%D9%81%20%D8%B4%D8%B9%D8%B1%20%D8%AC%D9%8A%D8%AF HTTP/1.1" 200 OK

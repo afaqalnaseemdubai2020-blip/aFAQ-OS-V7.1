@@ -1,0 +1,6 @@
+INFO:     127.0.0.1:58827 - "GET /api/whatsapp/chat?phone=97100000001&name=TestUser&message=hello HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58827 - "GET /api/whatsapp/chat?phone=97100000001&name=TestUser&message=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58827 - "GET /api/whatsapp/chat?phone=97100000001&name=TestUser&message=2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58827 - "GET /api/whatsapp/chat?phone=97100000001&name=TestUser&message=3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58827 - "GET /api/whatsapp/chat?phone=97100000001&name=TestUser&message=%231045 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58827 - "GET /api/whatsapp/chat?phone=97100000001&name=TestUser&message=Can%20you%20recommend%20a%20dryer%20for%20frizzy%20hair%20under%20300%20AED HTTP/1.1" 200 OK

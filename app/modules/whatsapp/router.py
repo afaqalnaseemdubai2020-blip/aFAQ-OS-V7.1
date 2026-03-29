@@ -1,70 +1,62 @@
-"""WhatsApp Bot Router - whatsapp-web.js bridge powered"""
-from fastapi import APIRouter, Query, Request
-from app.modules.whatsapp.classifier import classifier
-from app.modules.whatsapp.session import session_manager
-from app.modules.whatsapp.ai_provider import generate_ai_response
-from app.modules.whatsapp.ultramsg import send_message, get_status
+"""WhatsApp Bot Router - sophisticated menu + DeepSeek brain + bridge send."""
 from datetime import datetime
+
+from fastapi import APIRouter, Query, Request
+
+from app.modules.whatsapp.classifier import classifier
+from app.modules.whatsapp.menu_engine import process_message
+from app.modules.whatsapp.session import session_manager
+from app.modules.whatsapp.training import training
+from app.modules.whatsapp.ultramsg import get_status, send_message
 
 whatsapp_router = APIRouter(prefix="/api/whatsapp", tags=["WhatsApp Bot"])
 
 # ============================================
-# WEBHOOK - Receive from Node.js bridge
+# WEBHOOK - Receive from bridge
 # ============================================
 
 @whatsapp_router.post("/webhook")
 async def whatsapp_webhook(request: Request):
-    """Receive messages from whatsapp-web.js bridge"""
+    """Receive inbound WhatsApp and return reply text to bridge."""
     try:
         payload = await request.json()
-        
+
         phone = payload.get("from", "")
         message_text = payload.get("body", "")
         contact_name = payload.get("pushname", "Guest")
-        
+
         if not phone or not message_text:
             return {"reply": None}
-        
+
         # Clean phone number
-        phone = phone.replace("@c.us", "").replace("@g.us", "")
-        
+        phone = phone.replace("@c.us", "").replace("@g.us", "").replace("+", "")
+
         # Get/create session
         session = session_manager.get_session(phone)
         if not session:
             session = session_manager.create_session(phone, contact_name)
-        
+
         session.last_activity = datetime.now()
         session.message_count += 1
-        
-        # Classify message
+
+        # Process via sophisticated menu engine (with AI fallback internally)
+        response_text = await process_message(phone, message_text, contact_name)
+
+        # Classifier metadata for dashboard analytics only
         result = classifier.classify(message_text)
-        category = result["category"]
-        confidence = result["confidence"]
-        
-        response_text = None
-        
-        # High confidence → template
-        if confidence >= 0.85:
-            response_text = result["response"]
-            session.template_hits += 1
-        else:
-            # Try DeepSeek AI
-            ai_response = await generate_ai_response(message_text)
-            if ai_response:
-                response_text = ai_response
-                session.ai_hits += 1
-            else:
-                response_text = result["response"]
-        
+        category = result.get("category", "unknown")
+        confidence = result.get("confidence", 0.0)
+
         # Escalation check
-        if category == "complaint":
+        if category in {"complaint", "return_refund"} or "Connecting to Human Agent" in (response_text or ""):
             session_manager.escalate(phone)
-            response_text = (
-                f"{response_text}\n\n"
-                "💬 تم تحويلك لممثل خدمة العملاء\n"
-                "Transferring to live agent..."
-            )
-        
+            if "Transferring to live agent" not in (response_text or ""):
+                response_text = (
+                    f"{response_text}\n\n"
+                    "💬 تم تحويلك لممثل خدمة العملاء\n"
+                    "Transferring to live agent..."
+                )
+
         # Save to history
         session.conversation_history.append({
             "timestamp": datetime.now().isoformat(),
@@ -73,10 +65,14 @@ async def whatsapp_webhook(request: Request):
             "category": category,
             "confidence": confidence
         })
-        
+
+        # Send reply via bridge (unless test number)
+        if response_text and not phone.startswith("97100000"):
+            await send_message(phone, response_text)
+
         # Return reply to bridge
         return {"reply": response_text}
-        
+
     except Exception as e:
         print(f"Webhook error: {e}")
         return {"reply": None}
@@ -110,32 +106,34 @@ async def chat_api(
     message: str = Query(...),
     name: str = Query(default="Guest")
 ):
-    """Test chat endpoint"""
-    
+    """Test chat endpoint using menu engine + DeepSeek fallback."""
+
     session = session_manager.get_session(phone)
     if not session:
         session = session_manager.create_session(phone, name)
-    
+
     session.last_activity = datetime.now()
     session.message_count += 1
-    
+
     result = classifier.classify(message)
-    category = result["category"]
-    confidence = result["confidence"]
-    
-    if confidence >= 0.85:
-        response_text = result["response"]
+    category = result.get("category", "unknown")
+    confidence = result.get("confidence", 0.0)
+
+    response_text = await process_message(phone, message, name)
+
+    # safe simulation number => no live send
+    if phone.startswith("97100000"):
+        send_result = {"status": "test_mode_skip_send"}
     else:
-        ai_response = await generate_ai_response(message)
-        response_text = ai_response if ai_response else result["response"]
-    
-    send_result = await send_message(phone, response_text)
-    
+        send_result = await send_message(phone, response_text)
+
     return {
-        "sent": send_result.get("status") == "sent",
+        "sent": send_result.get("status") in {"sent", "test_mode_skip_send"},
+        "send_status": send_result.get("status"),
         "response": response_text,
         "category": category,
-        "confidence": confidence
+        "confidence": confidence,
+        "mode": "menu_engine_with_ai_fallback"
     }
 
 @whatsapp_router.get("/dashboard")
@@ -175,3 +173,31 @@ async def agent_resolve(phone: str):
         session.status = "resolved"
         return {"status": "resolved"}
     return {"status": "not_found"}
+
+
+# ── Training API ──────────────────────────────────────
+@whatsapp_router.get("/training/list")
+async def training_list():
+    """View training examples summary."""
+    return training.get_stats()
+
+
+@whatsapp_router.post("/training/add")
+async def training_add(request: Request):
+    """Add new training example for classifier."""
+    body = await request.json()
+    example = training.add_example(
+        category=body.get("category", "general"),
+        examples=body.get("examples", []),
+        response_en=body.get("response_en"),
+        response_ar=body.get("response_ar"),
+        should_escalate=body.get("should_escalate", False),
+        tags=body.get("tags", []),
+    )
+    return {"status": "added", "example": example}
+
+
+@whatsapp_router.get("/training/categories")
+async def training_categories():
+    """Category summary."""
+    return training.get_stats().get("categories", {})
