@@ -14,12 +14,14 @@ os.makedirs(DATA_DIR, exist_ok=True)
 def _load(entity: str) -> List[dict]:
     fp = os.path.join(DATA_DIR, f"{entity}.json")
     if os.path.exists(fp):
-        return json.load(open(fp))
+        with open(fp, "r", encoding="utf-8") as f:
+            return json.load(f)
     return []
 
 def _save(entity: str, data: list):
     fp = os.path.join(DATA_DIR, f"{entity}.json")
-    json.dump(data, open(fp, "w"), indent=2, ensure_ascii=False, default=str)
+    with open(fp, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False, default=str)
 
 # ── ORDER CRUD ─────────────────────────
 class OrderCRUD:

@@ -1,0 +1,9 @@
+INFO:     127.0.0.1:50638 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50638 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50638 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50638 - "GET /crm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50638 - "GET /crm/contacts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50638 - "GET /api/agents/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50638 - "GET /api/shopify/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50638 - "GET /api/whatsapp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50638 - "GET /api/wiki/articles HTTP/1.1" 200 OK
